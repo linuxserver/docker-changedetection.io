@@ -1,0 +1,29 @@
+---
+
+# jenkins variables
+project_name: docker-changedetection.io
+external_type: github_stable
+release_type: stable
+release_tag: latest
+ls_branch: main
+repo_vars:
+  - EXT_GIT_BRANCH = 'master'
+  - EXT_USER = 'dgtlmoon'
+  - EXT_REPO = 'changedetection.io'
+  - BUILD_VERSION_ARG = 'CHANGEDETECTION_RELEASE'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-changedetection.io'
+  - CONTAINER_NAME = 'changedetection.io'
+  - DOCKERHUB_IMAGE = 'linuxserver/changedetection.io'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/changedetection.io'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/changedetection.io'
+  - DIST_IMAGE = 'alpine'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='5000'
+  - CI_SSL='false'
+  - CI_DELAY='120'
+  - CI_DOCKERENV='TZ=Europe/London'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH=''
