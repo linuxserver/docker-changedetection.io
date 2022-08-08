@@ -33,7 +33,7 @@ param_env_vars:
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
-  - { env_var: "BASE_URL", env_value: "http://changedetection.example.com", desc: "Specify a base URL when running behind a reverse proxy" }
+  - { env_var: "BASE_URL", env_value: "", desc: "Specify the full URL (including protocol) when running behind a reverse proxy" }
 
 # application setup block
 app_setup_block_enabled: true

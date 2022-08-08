@@ -81,7 +81,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
-      - BASE_URL=http://changedetection.example.com #optional
+      - BASE_URL= #optional
     volumes:
       - /path/to/appdata/config:/config
     ports:
@@ -97,7 +97,7 @@ docker run -d \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Europe/London \
-  -e BASE_URL=http://changedetection.example.com `#optional` \
+  -e BASE_URL= `#optional` \
   -p 5000:5000 \
   -v /path/to/appdata/config:/config \
   --restart unless-stopped \
@@ -114,7 +114,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London |
-| `-e BASE_URL=http://changedetection.example.com` | Specify a base URL when running behind a reverse proxy |
+| `-e BASE_URL=` | Specify the full URL (including protocol) when running behind a reverse proxy |
 | `-v /config` | Contains all relevant configuration files. |
 
 ## Environment variables from files (Docker secrets)
