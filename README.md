@@ -229,4 +229,5 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **09.10.22:** - Add make as build dep to fix pip jq build on armhf.
 * **07.08.22:** - Initial release.
