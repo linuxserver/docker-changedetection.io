@@ -10,15 +10,16 @@ ENV PYTHONUNBUFFERED=1
 
 RUN \
   apk add --update --no-cache --virtual=build-dependencies \
-    openssl-dev \
-    libffi-dev \
+    g++ \
     gcc \
     libc-dev \
+    libffi-dev \
     libxslt-dev \
-    zlib-dev \
-    g++ \
+    make \
+    openssl-dev \
     py3-wheel \
-    python3-dev && \
+    python3-dev \
+    zlib-dev && \
   apk add --update --no-cache \
     curl \
     libxslt \

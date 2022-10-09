@@ -63,4 +63,5 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "09.10.22:", desc: "Add make as build dep to fix pip jq build on armhf." }
   - { date: "07.08.22:", desc: "Initial release." }
