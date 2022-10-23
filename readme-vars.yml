@@ -63,5 +63,6 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "23.10.22:", desc: "Rebase to Alpine 3.16, migrate to s6v3." }
   - { date: "09.10.22:", desc: "Add make as build dep to fix pip jq build on armhf." }
   - { date: "07.08.22:", desc: "Initial release." }
