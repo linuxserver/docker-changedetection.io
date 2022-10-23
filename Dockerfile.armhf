@@ -10,6 +10,7 @@ ENV PYTHONUNBUFFERED=1
 
 RUN \
   apk add --update --no-cache --virtual=build-dependencies \
+    cargo \
     g++ \
     gcc \
     libc-dev \
