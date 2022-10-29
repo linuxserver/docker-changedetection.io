@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-alpine:3.15
+FROM ghcr.io/linuxserver/baseimage-alpine:3.16
 
 ARG BUILD_DATE
 ARG VERSION
@@ -10,6 +10,7 @@ ENV PYTHONUNBUFFERED=1
 
 RUN \
   apk add --update --no-cache --virtual=build-dependencies \
+    cargo \
     g++ \
     gcc \
     libc-dev \
@@ -21,7 +22,6 @@ RUN \
     python3-dev \
     zlib-dev && \
   apk add --update --no-cache \
-    curl \
     libxslt \
     python3 \
     py3-pip && \
@@ -39,7 +39,7 @@ RUN \
     /app/changedetection/ --strip-components=1 && \
   rm /tmp/changedetection.tar.gz && \
   pip3 install -U pip wheel setuptools && \
-  pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.15/ -r /app/changedetection/requirements.txt && \
+  pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.16/ -r /app/changedetection/requirements.txt && \
   apk del --purge \
     build-dependencies && \
   rm -rf \
@@ -49,4 +49,5 @@ RUN \
 COPY root/ /
 
 EXPOSE 5000
+
 VOLUME /config

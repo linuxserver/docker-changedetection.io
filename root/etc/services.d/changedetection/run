@@ -1,6 +1,0 @@
-#!/usr/bin/with-contenv bash
-
-cd /app/changedetection || exit 1
-
-exec 2>&1 \
-    s6-setuidgid abc python3 /app/changedetection/changedetection.py -d /config
