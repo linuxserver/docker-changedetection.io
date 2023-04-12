@@ -24,7 +24,7 @@ arrow                     1.2.3                  python
 async-generator           1.10                   python  
 attrs                     22.2.0                 python  
 bash                      5.2.15-r0              apk     
-beautifulsoup4            4.12.1                 python  
+beautifulsoup4            4.12.2                 python  
 brotli-libs               1.0.9-r9               apk     
 busybox                   1.35.0                 binary  
 busybox                   1.35.0-r29             apk     
@@ -75,7 +75,7 @@ libmd                     1.0.4-r0               apk
 libproc                   3.3.17-r2              apk     
 libssl3                   3.0.8-r3               apk     
 libstdc++                 12.2.1_git20220924-r4  apk     
-libxml2                   2.10.3-r1              apk     
+libxml2                   2.10.4-r0              apk     
 libxslt                   1.1.37-r1              apk     
 linux-pam                 1.5.2-r1               apk     
 lxml                      4.9.2                  python  
@@ -98,7 +98,7 @@ procps                    3.3.17-r2              apk
 pyOpenSSL                 21.0.0                 python  
 pycparser                 2.21                   python  
 pyrsistent                0.19.3                 python  
-pytest                    7.2.2                  python  
+pytest                    7.3.0                  python  
 pytest-flask              1.2.0                  python  
 python                    3.10.11                binary  
 python-dateutil           2.8.2                  python  
