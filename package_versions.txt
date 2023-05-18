@@ -46,6 +46,7 @@ eventlet                  0.33.3                 python
 exceptiongroup            1.1.1                  python  
 feedgen                   0.9.0                  python  
 flask-expects-json        1.7.0                  python  
+flask-paginate            2022.1.8               python  
 gdbm                      1.23-r0                apk     
 greenlet                  2.0.2                  python  
 h11                       0.14.0                 python  
