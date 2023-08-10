@@ -22,6 +22,7 @@ RUN \
     zlib-dev && \
   apk add --update --no-cache \
     libxslt \
+    poppler-utils \
     python3 && \
   echo "**** install changedetection.io ****" && \
   mkdir -p /app/changedetection && \
