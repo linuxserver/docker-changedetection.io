@@ -36,7 +36,7 @@ cffi                        1.15.1                  python
 changedetection.io-theme    0.0.3                   npm     
 chardet                     5.2.0                   python  
 charset-normalizer          3.2.0                   python  
-click                       8.1.6                   python  
+click                       8.1.7                   python  
 coreutils                   9.3-r1                  apk     
 cryptography                3.4.8                   python  
 curl                        8.2.1-r0                apk     
@@ -121,7 +121,6 @@ pyc                         0.1-r0                  apk
 pycparser                   2.21                    python  
 pytest                      7.4.0                   python  
 pytest-flask                1.2.0                   python  
-python                      3.11.4                  binary  
 python-dateutil             2.8.2                   python  
 python3                     3.11.4-r0               apk     
 python3-pyc                 3.11.4-r0               apk     
@@ -152,7 +151,7 @@ urllib3                     1.26.16                 python
 urllib3-secure-extra        0.1.0                   python  
 utmps-libs                  0.1.2.1-r1              apk     
 validators                  0.21.2                  python  
-wheel                       0.41.1                  python  
+wheel                       0.41.2                  python  
 wsproto                     1.2.0                   python  
 xz-libs                     5.4.3-r0                apk     
 zlib                        1.2.13-r1               apk     
