@@ -1,7 +1,7 @@
 NAME                        VERSION                 TYPE   
-Brotli                      1.0.9                   python  
+Brotli                      1.1.0                   python  
 Flask                       2.1.3                   python  
-Flask-Compress              1.13                    python  
+Flask-Compress              1.14                    python  
 Flask-Login                 0.6.2                   python  
 Flask-RESTful               0.3.10                  python  
 Flask-WTF                   1.1.1                   python  
@@ -57,8 +57,8 @@ iniconfig                   2.0.0                   python
 inscriptis                  2.3.2                   python  
 itsdangerous                2.1.2                   python  
 jinja2-time                 0.2.0                   python  
-jq                          1.5.0                   python  
 jq                          1.6-r3                  apk     
+jq                          1.6.0                   python  
 jsonpath-ng                 1.5.3                   python  
 jsonschema                  4.17.3                  python  
 lcms2                       2.15-r2                 apk     
@@ -119,7 +119,7 @@ pyOpenSSL                   21.0.0                  python
 pyc                         0.1-r0                  apk     
 pycparser                   2.21                    python  
 pyrsistent                  0.19.3                  python  
-pytest                      7.4.1                   python  
+pytest                      7.4.2                   python  
 pytest-flask                1.2.0                   python  
 python-dateutil             2.8.2                   python  
 python3                     3.11.5-r0               apk     
@@ -143,7 +143,7 @@ ssl_client                  1.36.1-r2               apk
 tiff                        4.5.1-r0                apk     
 timeago                     1.0.16                  python  
 trio                        0.22.2                  python  
-trio-websocket              0.10.3                  python  
+trio-websocket              0.10.4                  python  
 tzdata                      2023c-r1                apk     
 urllib3                     1.26.16                 python  
 urllib3-secure-extra        0.1.0                   python  
