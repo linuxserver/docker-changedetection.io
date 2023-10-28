@@ -20,7 +20,7 @@ alpine-keys                 2.4-r1                  apk
 alpine-release              3.18.4-r0               apk     
 aniso8601                   9.0.1                   python  
 apk-tools                   2.14.0-r2               apk     
-apprise                     1.5.0                   python  
+apprise                     1.6.0                   python  
 arrow                       1.3.0                   python  
 attrs                       23.1.0                  python  
 bash                        5.2.15-r5               apk     
@@ -49,7 +49,7 @@ flask-paginate              2023.10.24              python
 fontconfig                  2.14.2-r3               apk     
 freetype                    2.13.0-r5               apk     
 gdbm                        1.23-r1                 apk     
-greenlet                    3.0.0                   python  
+greenlet                    3.0.1                   python  
 h11                         0.14.0                  python  
 idna                        3.4                     python  
 iniconfig                   2.0.0                   python  
@@ -104,7 +104,7 @@ nghttp2-libs                1.57.0-r0               apk
 oauthlib                    3.2.2                   python  
 oniguruma                   6.9.8-r1                apk     
 openjpeg                    2.5.0-r3                apk     
-outcome                     1.3.0                   python  
+outcome                     1.3.0.post0             python  
 packaging                   23.2                    python  
 paho-mqtt                   1.6.1                   python  
 pip                         23.3.1                  python  
@@ -114,10 +114,9 @@ ply                         3.11                    python
 poppler                     23.05.0-r0              apk     
 poppler-utils               23.05.0-r0              apk     
 procps-ng                   4.0.4-r0                apk     
-pyOpenSSL                   21.0.0                  python  
 pyc                         0.1-r0                  apk     
 pycparser                   2.21                    python  
-pyrsistent                  0.19.3                  python  
+pyrsistent                  0.20.0                  python  
 pytest                      7.4.3                   python  
 pytest-flask                1.3.0                   python  
 python-dateutil             2.8.2                   python  
@@ -129,7 +128,7 @@ readline                    8.2.1-r1                apk
 requests                    2.31.0                  python  
 requests-oauthlib           1.3.1                   python  
 scanelf                     1.3.7-r1                apk     
-selenium                    4.1.5                   python  
+selenium                    4.14.0                  python  
 setuptools                  65.5.0                  python  
 shadow                      4.13-r4                 apk     
 six                         1.16.0                  python  
@@ -145,8 +144,7 @@ trio                        0.22.2                  python
 trio-websocket              0.11.1                  python  
 types-python-dateutil       2.8.19.14               python  
 tzdata                      2023c-r1                apk     
-urllib3                     1.26.18                 python  
-urllib3-secure-extra        0.1.0                   python  
+urllib3                     2.0.7                   python  
 utmps-libs                  0.1.2.1-r1              apk     
 validators                  0.22.0                  python  
 wheel                       0.41.2                  python  
