@@ -2,17 +2,17 @@ NAME                        VERSION                 TYPE
 Brotli                      1.1.0                   python  
 Flask                       2.1.3                   python  
 Flask-Compress              1.14                    python  
-Flask-Login                 0.6.2                   python  
+Flask-Login                 0.6.3                   python  
 Flask-RESTful               0.3.10                  python  
 Flask-WTF                   1.2.1                   python  
 Jinja2                      3.1.2                   python  
-Markdown                    3.5                     python  
+Markdown                    3.5.1                   python  
 MarkupSafe                  2.1.3                   python  
 Pillow                      10.1.0                  python  
 PySocks                     1.7.1                   python  
 PyYAML                      6.0.1                   python  
 Simple Launcher Executable  1.1.0.14                dotnet  
-WTForms                     3.1.0                   python  
+WTForms                     3.1.1                   python  
 Werkzeug                    2.0.3                   python  
 alpine-baselayout           3.4.3-r1                apk     
 alpine-baselayout-data      3.4.3-r1                apk     
@@ -35,7 +35,7 @@ certifi                     2023.7.22               python
 cffi                        1.16.0                  python  
 changedetection.io-theme    0.0.3                   npm     
 chardet                     5.2.0                   python  
-charset-normalizer          3.3.1                   python  
+charset-normalizer          3.3.2                   python  
 click                       8.1.7                   python  
 coreutils                   9.3-r1                  apk     
 cryptography                3.4.8                   python  
@@ -85,7 +85,7 @@ libssl3                     3.1.4-r0                apk
 libstdc++                   12.2.1_git20220924-r10  apk     
 libunistring                1.1-r1                  apk     
 libwebp                     1.3.2-r0                apk     
-libx11                      1.8.4-r4                apk     
+libx11                      1.8.7-r0                apk     
 libxau                      1.0.11-r2               apk     
 libxcb                      1.15-r1                 apk     
 libxdmcp                    1.1.4-r2                apk     
@@ -147,7 +147,7 @@ tzdata                      2023c-r1                apk
 urllib3                     2.0.7                   python  
 utmps-libs                  0.1.2.1-r1              apk     
 validators                  0.22.0                  python  
-wheel                       0.41.2                  python  
+wheel                       0.41.3                  python  
 wsproto                     1.2.0                   python  
 xz-libs                     5.4.3-r0                apk     
 zlib                        1.2.13-r1               apk     
