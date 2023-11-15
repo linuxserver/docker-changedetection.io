@@ -147,7 +147,7 @@ trio                      0.23.1                  python
 trio-websocket            0.11.1                  python  
 types-python-dateutil     2.8.19.14               python  
 tzdata                    2023c-r1                apk     
-urllib3                   2.0.7                   python  
+urllib3                   2.1.0                   python  
 utmps-libs                0.1.2.1-r1              apk     
 validators                0.22.0                  python  
 wheel                     0.41.3                  python  
