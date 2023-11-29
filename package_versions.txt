@@ -43,6 +43,7 @@ cryptography              3.4.8                   python
 curl                      8.4.0-r0                apk     
 decorator                 5.1.1                   python  
 dnspython                 2.4.2                   python  
+elementpath               4.1.5                   python  
 et-xmlfile                1.1.0                   python  
 eventlet                  0.33.3                  python  
 feedgen                   0.9.0                   python  
@@ -53,7 +54,7 @@ freetype                  2.13.0-r5               apk
 gdbm                      1.23-r1                 apk     
 greenlet                  3.0.1                   python  
 h11                       0.14.0                  python  
-idna                      3.4                     python  
+idna                      3.6                     python  
 iniconfig                 2.0.0                   python  
 inscriptis                2.3.2                   python  
 itsdangerous              2.1.2                   python  
@@ -150,7 +151,7 @@ tzdata                    2023c-r1                apk
 urllib3                   2.1.0                   python  
 utmps-libs                0.1.2.1-r1              apk     
 validators                0.22.0                  python  
-wheel                     0.41.3                  python  
+wheel                     0.42.0                  python  
 wsproto                   1.2.0                   python  
 xz-libs                   5.4.3-r0                apk     
 zlib                      1.2.13-r1               apk     
