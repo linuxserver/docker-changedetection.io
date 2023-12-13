@@ -40,7 +40,7 @@ charset-normalizer        3.3.2                   python
 click                     8.1.7                   python  
 coreutils                 9.3-r1                  apk     
 cryptography              3.4.8                   python  
-curl                      8.4.0-r0                apk     
+curl                      8.5.0-r0                apk     
 decorator                 5.1.1                   python  
 dnspython                 2.4.2                   python  
 elementpath               4.1.5                   python  
@@ -52,14 +52,14 @@ flask-paginate            2023.10.24              python
 fontconfig                2.14.2-r3               apk     
 freetype                  2.13.0-r5               apk     
 gdbm                      1.23-r1                 apk     
-greenlet                  3.0.1                   python  
+greenlet                  3.0.2                   python  
 h11                       0.14.0                  python  
 idna                      3.6                     python  
 iniconfig                 2.0.0                   python  
 inscriptis                2.3.2                   python  
 itsdangerous              2.1.2                   python  
 jinja2-time               0.2.0                   python  
-jq                        1.6-r3                  apk     
+jq                        1.6-r4                  apk     
 jq                        1.6.0                   python  
 jsonpath-ng               1.5.3                   python  
 jsonschema                4.17.3                  python  
@@ -70,7 +70,7 @@ libbsd                    0.11.7-r1               apk
 libbz2                    1.0.8-r5                apk     
 libc-utils                0.7.2-r5                apk     
 libcrypto3                3.1.4-r1                apk     
-libcurl                   8.4.0-r0                apk     
+libcurl                   8.5.0-r0                apk     
 libexpat                  2.5.0-r1                apk     
 libffi                    3.4.4-r2                apk     
 libgcc                    12.2.1_git20220924-r10  apk     
