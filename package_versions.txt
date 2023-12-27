@@ -11,7 +11,7 @@ MarkupSafe                2.1.3                   python
 Pillow                    10.1.0                  python  
 PySocks                   1.7.1                   python  
 PyYAML                    6.0.1                   python  
-SimpleLauncherExecutable  1.1.0.14                dotnet  
+Simple Launcher           1.1.0.14                dotnet  
 WTForms                   3.1.1                   python  
 Werkzeug                  3.0.1                   python  
 alpine-baselayout         3.4.3-r1                apk     
@@ -45,14 +45,14 @@ decorator                 5.1.1                   python
 dnspython                 2.4.2                   python  
 elementpath               4.1.5                   python  
 et-xmlfile                1.1.0                   python  
-eventlet                  0.33.3                  python  
+eventlet                  0.34.2                  python  
 feedgen                   0.9.0                   python  
 flask-expects-json        1.7.0                   python  
 flask-paginate            2023.10.24              python  
 fontconfig                2.14.2-r3               apk     
 freetype                  2.13.0-r5               apk     
 gdbm                      1.23-r1                 apk     
-greenlet                  3.0.2                   python  
+greenlet                  3.0.3                   python  
 h11                       0.14.0                  python  
 idna                      3.6                     python  
 iniconfig                 2.0.0                   python  
