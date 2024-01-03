@@ -8,7 +8,6 @@ Flask-WTF                 1.2.1                  python
 Jinja2                    3.1.2                  python  
 Markdown                  3.5.1                  python  
 MarkupSafe                2.1.3                  python  
-Pillow                    10.1.0                 python  
 PySocks                   1.7.1                  python  
 PyYAML                    6.0.1                  python  
 Simple Launcher           1.1.0.14               dotnet  
@@ -22,7 +21,7 @@ aniso8601                 9.0.1                  python
 apk-tools                 2.14.0-r5              apk     
 apprise                   1.6.0                  python  
 arrow                     1.3.0                  python  
-attrs                     23.1.0                 python  
+attrs                     23.2.0                 python  
 bash                      5.2.21-r0              apk     
 beautifulsoup4            4.12.2                 python  
 blinker                   1.7.0                  python  
@@ -102,7 +101,7 @@ libxml2                   2.11.6-r0              apk
 libxrender                0.9.11-r4              apk     
 libxslt                   1.1.39-r0              apk     
 linux-pam                 1.5.3-r7               apk     
-lxml                      4.9.4                  python  
+lxml                      5.0.0                  python  
 mpdecimal                 2.5.1-r2               apk     
 musl                      1.2.4_git20230717-r4   apk     
 musl-utils                1.2.4_git20230717-r4   apk     
@@ -118,6 +117,7 @@ openpyxl                  3.1.2                  python
 outcome                   1.3.0.post0            python  
 packaging                 23.2                   python  
 paho-mqtt                 1.6.1                  python  
+pillow                    10.2.0                 python  
 pip                       23.3.2                 python  
 pixman                    0.42.2-r2              apk     
 pluggy                    1.3.0                  python  
@@ -128,7 +128,7 @@ procps-ng                 4.0.4-r0               apk
 pyc                       3.11.6-r1              apk     
 pycparser                 2.21                   python  
 pyrsistent                0.20.0                 python  
-pytest                    7.4.3                  python  
+pytest                    7.4.4                  python  
 pytest-flask              1.3.0                  python  
 python-dateutil           2.8.2                  python  
 python3                   3.11.6-r1              apk     
@@ -154,7 +154,7 @@ timeago                   1.0.16                 python
 trio                      0.23.2                 python  
 trio-websocket            0.11.1                 python  
 types-python-dateutil     2.8.19.14              python  
-tzdata                    2023c-r1               apk     
+tzdata                    2023d-r0               apk     
 urllib3                   2.1.0                  python  
 utmps-libs                0.1.2.2-r0             apk     
 validators                0.22.0                 python  
