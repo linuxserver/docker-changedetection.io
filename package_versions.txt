@@ -46,7 +46,7 @@ cryptography              3.4.8                  python
 curl                      8.5.0-r0               apk     
 decorator                 5.1.1                  python  
 dnspython                 2.5.0                  python  
-elementpath               4.2.0                  python  
+elementpath               4.1.5                  python  
 et-xmlfile                1.1.0                  python  
 eventlet                  0.35.1                 python  
 feedgen                   0.9.0                  python  
