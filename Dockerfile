@@ -14,6 +14,8 @@ RUN \
   apk add --update --no-cache --virtual=build-dependencies \
     build-base \
     cargo \
+    git \
+    jpeg-dev \
     libc-dev \
     libffi-dev \
     libxslt-dev \
@@ -21,6 +23,8 @@ RUN \
     python3-dev \
     zlib-dev && \
   apk add --update --no-cache \
+    chromium-chromedriver \
+    libjpeg \
     libxslt \
     poppler-utils \
     python3 && \
@@ -42,6 +46,11 @@ RUN \
     pip \
     wheel && \
   pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.19/ -r /app/changedetection/requirements.txt && \
+  PLAYWRIGHT_RELEASE=$(curl -sX GET "https://api.github.com/repos/microsoft/playwright-python/releases/latest" \
+    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+  git clone --depth 1 --branch "${PLAYWRIGHT_RELEASE}" https://github.com/microsoft/playwright-python /tmp/playwright-python && \
+  cd /tmp/playwright-python && \
+  pip install -U --no-cache-dir . && \
   apk del --purge \
     build-dependencies && \
   rm -rf \

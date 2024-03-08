@@ -62,6 +62,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "08.03.24:", desc: "Build Playwright from source, add libjpeg."}
   - { date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
   - { date: "10.08.23:", desc: "Add poppler-utils for pdf conversion tools." }
   - { date: "11.06.23:", desc: "Rebase to Alpine 3.18, deprecate armhf." }
