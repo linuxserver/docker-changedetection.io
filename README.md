@@ -61,7 +61,7 @@ The architectures supported by this image are:
 
 Webui is accessible at http://SERVERIP:PORT
 
-Please note that this image does not contain the [Playwright content fetcher](https://github.com/dgtlmoon/changedetection.io/wiki/Playwright-content-fetcher#docker-compose-based) due to a lack of support for muslc-based systems. If you require this feature please use [Selenium](https://github.com/linuxserver/docker-changedetection.io/issues/3#issuecomment-1250251715) or the [official container](https://github.com/dgtlmoon/changedetection.io#docker)
+Please note that as of version 0.45.15 this image contains the [Playwright content fetcher](https://github.com/dgtlmoon/changedetection.io/wiki/Playwright-content-fetcher#docker-compose-based).
 
 For more info read [the wiki](https://github.com/dgtlmoon/changedetection.io/wiki).
 
@@ -279,6 +279,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **08.03.24:** - Build Playwright from source, add libjpeg.
 * **23.12.23:** - Rebase to Alpine 3.19.
 * **10.08.23:** - Add poppler-utils for pdf conversion tools.
 * **11.06.23:** - Rebase to Alpine 3.18, deprecate armhf.
