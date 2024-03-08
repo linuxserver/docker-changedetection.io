@@ -23,7 +23,6 @@ RUN \
     python3-dev \
     zlib-dev && \
   apk add --update --no-cache \
-    chromium-chromedriver \
     libjpeg \
     libxslt \
     poppler-utils \
