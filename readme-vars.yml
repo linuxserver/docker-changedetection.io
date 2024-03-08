@@ -56,12 +56,13 @@ app_setup_block_enabled: true
 app_setup_block: |
   Webui is accessible at http://SERVERIP:PORT
 
-  Please note that this image does not contain the [Playwright content fetcher](https://github.com/dgtlmoon/changedetection.io/wiki/Playwright-content-fetcher#docker-compose-based) due to a lack of support for muslc-based systems. If you require this feature please use [Selenium](https://github.com/linuxserver/docker-changedetection.io/issues/3#issuecomment-1250251715) or the [official container](https://github.com/dgtlmoon/changedetection.io#docker)
+  Please note that as of version 0.45.15 this image contains the [Playwright content fetcher](https://github.com/dgtlmoon/changedetection.io/wiki/Playwright-content-fetcher#docker-compose-based).
 
   For more info read [the wiki](https://github.com/dgtlmoon/changedetection.io/wiki).
 
 # changelog
 changelogs:
+  - { date: "08.03.24:", desc: "Build Playwright from source, add libjpeg."}
   - { date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
   - { date: "10.08.23:", desc: "Add poppler-utils for pdf conversion tools." }
   - { date: "11.06.23:", desc: "Rebase to Alpine 3.18, deprecate armhf." }
