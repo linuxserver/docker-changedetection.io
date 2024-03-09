@@ -70,7 +70,7 @@ RUN \
   sed -i 's/"..\/..\/${NODE_DIR}\/${NPM_PATH}"/\/usr\/lib\/node_modules\/npm\/bin\/npm-cli.js/' ./utils/build/build-playwright-driver.sh && \
   ./utils/build/build-playwright-driver.sh && \
   rm -rf /lsiopy/lib/python3.11/site-packages/playwright/driver/* && \
-  cp -R ./utils/build/output/playwright-linux/* /lsiopy/lib/python3.11/site-packages/playwright/driver && \
+  cp -R ./utils/build/output/playwright-linux-arm64/* /lsiopy/lib/python3.11/site-packages/playwright/driver && \
   ln -s /usr/bin/node /lsiopy/lib/python3.11/site-packages/playwright/driver/node && \
   apk del --purge \
     build-dependencies && \
