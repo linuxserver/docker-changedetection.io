@@ -33,36 +33,21 @@ param_env_vars:
 opt_param_usage_include_env: true
 opt_param_env_vars:
   - { env_var: "BASE_URL", env_value: "", desc: "Specify the full URL (including protocol) when running behind a reverse proxy" }
+  - { env_var: "PLAYWRIGHT_DRIVER_URL", env_value: "", desc: "Specify the full URL to your chrome driver instance. See the [wiki](https://github.com/dgtlmoon/changedetection.io/wiki/Playwright-content-fetcher) for details." }
 
-custom_compose: |
-  ---
-  version: "2.1"
-  services:
-    changedetection:
-      image: lscr.io/linuxserver/changedetection.io:latest
-      container_name: changedetection
-      environment:
-        - PUID=1000
-        - PGID=1000
-        - TZ=Europe/London
-        - BASE_URL= #optional
-      volumes:
-        - /path/to/appdata/config:/config
-      ports:
-        - 5000:5000
-      restart: unless-stopped
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
   Webui is accessible at http://SERVERIP:PORT
 
-  Please note that as of version 0.45.15 this image contains the [Playwright content fetcher](https://github.com/dgtlmoon/changedetection.io/wiki/Playwright-content-fetcher#docker-compose-based).
+  Please note that as of version 0.45.16 this image contains the Playwright content fetcher.
 
   For more info read [the wiki](https://github.com/dgtlmoon/changedetection.io/wiki).
 
 # changelog
 changelogs:
-  - { date: "08.03.24:", desc: "Build Playwright from source, add libjpeg."}
+  - { date: "09.03.24:", desc: "Build Playwright from source because Microsoft's build and packaging process is awful."}
+  - { date: "08.03.24:", desc: "Build Playwright-python from source, add libjpeg."}
   - { date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
   - { date: "10.08.23:", desc: "Add poppler-utils for pdf conversion tools." }
   - { date: "11.06.23:", desc: "Rebase to Alpine 3.18, deprecate armhf." }
