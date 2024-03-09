@@ -48,13 +48,12 @@ RUN \
     pip \
     wheel && \
   pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.19/ -r /app/changedetection/requirements.txt && \
-  echo "**** install playwright ****" && \
-  PLAYWRIGHT_RELEASE=$(curl -sX GET "https://api.github.com/repos/microsoft/playwright/releases/latest" \
+  PLAYWRIGHT_PY_RELEASE=$(curl -sX GET "https://api.github.com/repos/microsoft/playwright-python/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
-  git clone --depth 1 --branch "${PLAYWRIGHT_RELEASE}" https://github.com/microsoft/playwright-python /tmp/playwright-python && \
+  git clone --depth 1 --branch "${PLAYWRIGHT_PY_RELEASE}" https://github.com/microsoft/playwright-python /tmp/playwright-python && \
   cd /tmp/playwright-python && \
   pip install -U --no-cache-dir . && \
-  git clone --depth 1 --branch "${PLAYWRIGHT_RELEASE}" https://github.com/microsoft/playwright /tmp/playwright && \
+  git clone --depth 1 --branch "${PLAYWRIGHT_PY_RELEASE}" https://github.com/microsoft/playwright /tmp/playwright && \
   cd /tmp/playwright && \
   npm ci && \
   npm run build && \
