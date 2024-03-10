@@ -61,7 +61,7 @@ The architectures supported by this image are:
 
 Webui is accessible at http://SERVERIP:PORT
 
-Please note that as of version 0.45.15 this image contains the [Playwright content fetcher](https://github.com/dgtlmoon/changedetection.io/wiki/Playwright-content-fetcher#docker-compose-based).
+Please note that as of version 0.45.16 this image contains the Playwright content fetcher.
 
 For more info read [the wiki](https://github.com/dgtlmoon/changedetection.io/wiki).
 
@@ -73,18 +73,18 @@ To help you get started creating a container from this image you can either use 
 
 ```yaml
 ---
-version: "2.1"
 services:
-  changedetection:
+  changedetection.io:
     image: lscr.io/linuxserver/changedetection.io:latest
     container_name: changedetection
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - TZ=Etc/UTC
       - BASE_URL= #optional
+      - PLAYWRIGHT_DRIVER_URL= #optional
     volumes:
-      - /path/to/appdata/config:/config
+      - /path/to/changedetection/config:/config
     ports:
       - 5000:5000
     restart: unless-stopped
@@ -99,6 +99,7 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
   -e BASE_URL= `#optional` \
+  -e PLAYWRIGHT_DRIVER_URL= `#optional` \
   -p 5000:5000 \
   -v /path/to/changedetection.io/config:/config \
   --restart unless-stopped \
@@ -116,6 +117,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-e BASE_URL=` | Specify the full URL (including protocol) when running behind a reverse proxy |
+| `-e PLAYWRIGHT_DRIVER_URL=` | Specify the full URL to your chrome driver instance. See the [wiki](https://github.com/dgtlmoon/changedetection.io/wiki/Playwright-content-fetcher) for details. |
 | `-v /config` | Persistent config files |
 
 ## Environment variables from files (Docker secrets)
@@ -279,7 +281,8 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **08.03.24:** - Build Playwright from source, add libjpeg.
+* **09.03.24:** - Build Playwright from source because Microsoft's build and packaging process is awful.
+* **08.03.24:** - Build Playwright-python from source, add libjpeg.
 * **23.12.23:** - Rebase to Alpine 3.19.
 * **10.08.23:** - Add poppler-utils for pdf conversion tools.
 * **11.06.23:** - Rebase to Alpine 3.18, deprecate armhf.
