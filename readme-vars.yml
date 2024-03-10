@@ -35,6 +35,24 @@ opt_param_env_vars:
   - { env_var: "BASE_URL", env_value: "", desc: "Specify the full URL (including protocol) when running behind a reverse proxy" }
   - { env_var: "PLAYWRIGHT_DRIVER_URL", env_value: "", desc: "Specify the full URL to your chrome driver instance. See the [wiki](https://github.com/dgtlmoon/changedetection.io/wiki/Playwright-content-fetcher) for details." }
 
+custom_compose: |
+  ---
+  services:
+    changedetection.io:
+      image: lscr.io/linuxserver/changedetection.io:latest
+      container_name: changedetection
+      environment:
+        - PUID=1000
+        - PGID=1000
+        - TZ=Etc/UTC
+        - BASE_URL= #optional
+        - PLAYWRIGHT_DRIVER_URL= #optional
+      volumes:
+        - /path/to/changedetection/config:/config
+      ports:
+        - 5000:5000
+      restart: unless-stopped
+
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |

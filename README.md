@@ -61,7 +61,7 @@ The architectures supported by this image are:
 
 Webui is accessible at http://SERVERIP:PORT
 
-Please note that as of version 0.45.15 this image contains the Playwright content fetcher.
+Please note that as of version 0.45.16 this image contains the Playwright content fetcher.
 
 For more info read [the wiki](https://github.com/dgtlmoon/changedetection.io/wiki).
 
@@ -76,7 +76,7 @@ To help you get started creating a container from this image you can either use 
 services:
   changedetection.io:
     image: lscr.io/linuxserver/changedetection.io:latest
-    container_name: changedetection.io
+    container_name: changedetection
     environment:
       - PUID=1000
       - PGID=1000
@@ -84,7 +84,7 @@ services:
       - BASE_URL= #optional
       - PLAYWRIGHT_DRIVER_URL= #optional
     volumes:
-      - /path/to/changedetection.io/config:/config
+      - /path/to/changedetection/config:/config
     ports:
       - 5000:5000
     restart: unless-stopped
