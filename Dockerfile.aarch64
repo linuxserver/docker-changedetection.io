@@ -19,7 +19,6 @@ RUN \
     libc-dev \
     libffi-dev \
     libxslt-dev \
-    npm \
     openssl-dev \
     python3-dev \
     zip \
