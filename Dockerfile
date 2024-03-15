@@ -53,23 +53,7 @@ RUN \
   git clone --depth 1 --branch "${PLAYWRIGHT_PY_RELEASE}" https://github.com/microsoft/playwright-python /tmp/playwright-python && \
   cd /tmp/playwright-python && \
   pip install -U --no-cache-dir . && \
-  git clone --depth 1 --branch "${PLAYWRIGHT_PY_RELEASE}" https://github.com/microsoft/playwright /tmp/playwright && \
-  cd /tmp/playwright && \
-  npm ci && \
-  npm run build && \
-  # Don't build for other platforms
-  sed -i '/-darwin-x64/d' ./utils/build/build-playwright-driver.sh && \
-  sed -i '/-darwin-arm64/d' ./utils/build/build-playwright-driver.sh && \
-  sed -i '/-linux-arm64/d' ./utils/build/build-playwright-driver.sh && \
-  sed -i '/-win-x64/d' ./utils/build/build-playwright-driver.sh && \
-  # Don't download a static node binary, use the OS install
-  sed -i '/curl ${NODE_URL}/d' ./utils/build/build-playwright-driver.sh && \
-  sed -i '/elif \[\[ "${ARCHIVE}" == "tar.gz" \]\]; then/,/else/d'  ./utils/build/build-playwright-driver.sh && \
-  sed -i '/cp .\/output\/${NODE_DIR}\/LICENSE .\/output\/playwright-${SUFFIX}\//d' ./utils/build/build-playwright-driver.sh && \
-  sed -i 's/"..\/..\/${NODE_DIR}\/${NPM_PATH}"/\/usr\/lib\/node_modules\/npm\/bin\/npm-cli.js/' ./utils/build/build-playwright-driver.sh && \
-  ./utils/build/build-playwright-driver.sh && \
-  rm -rf /lsiopy/lib/python3.11/site-packages/playwright/driver/* && \
-  cp -R ./utils/build/output/playwright-linux/* /lsiopy/lib/python3.11/site-packages/playwright/driver && \
+  rm -f /lsiopy/lib/python3.11/site-packages/playwright/driver/node && \
   ln -s /usr/bin/node /lsiopy/lib/python3.11/site-packages/playwright/driver/node && \
   apk del --purge \
     build-dependencies && \
