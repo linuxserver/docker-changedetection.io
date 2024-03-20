@@ -176,7 +176,7 @@ typing-inspect            0.5.0                  python
 tzdata                    2024a-r0               apk                      
 urllib3                   1.26.18                python                   
 utmps-libs                0.1.2.2-r0             apk                      
-validators                0.22.0                 python                   
+validators                0.23.2                 python                   
 websockets                10.4                   python                   
 wheel                     0.43.0                 python                   
 wsproto                   1.2.0                  python                   
