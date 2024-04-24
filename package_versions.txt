@@ -121,7 +121,7 @@ netcat-openbsd            1.226-r0               apk
 nghttp2-libs              1.58.0-r0              apk                      
 nodejs                    20.12.1-r0             apk                      
 nspr                      4.35-r4                apk                      
-nss                       3.98-r0                apk                      
+nss                       3.99-r0                apk                      
 oauthlib                  3.2.2                  python                   
 oniguruma                 6.9.9-r0               apk                      
 openjpeg                  2.5.0-r3               apk                      
@@ -135,7 +135,7 @@ pip                       24.0                   python
 pixman                    0.42.2-r2              apk                      
 playwright                1.43.0                 python                   
 playwright-core           1.43.0                 npm                      
-pluggy                    1.4.0                  python                   
+pluggy                    1.5.0                  python                   
 ply                       3.11                   python                   
 poppler                   23.10.0-r0             apk                      
 poppler-utils             23.10.0-r0             apk                      
@@ -177,7 +177,7 @@ typing-inspect            0.5.0                  python
 tzdata                    2024a-r0               apk                      
 urllib3                   1.26.18                python                   
 utmps-libs                0.1.2.2-r0             apk                      
-validators                0.28.0                 python                   
+validators                0.28.1                 python                   
 websockets                10.4                   python                   
 wheel                     0.43.0                 python                   
 wsproto                   1.2.0                  python                   
