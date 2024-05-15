@@ -36,6 +36,7 @@ c-ares                    1.27.0-r0              apk
 ca-certificates           20240226-r0            apk                      
 ca-certificates-bundle    20240226-r0            apk                      
 cairo                     1.18.0-r0              apk                      
+catatonit                 0.2.0-r0               apk                      
 certifi                   2024.2.2               python                   
 cffi                      1.16.0                 python                   
 changedetection.io-theme  0.0.3                  npm                      
@@ -111,7 +112,7 @@ libxrender                0.9.11-r4              apk
 libxslt                   1.1.39-r0              apk                      
 linux-pam                 1.5.3-r7               apk                      
 loguru                    0.7.2                  python                   
-lxml                      5.2.1                  python                   
+lxml                      5.2.2                  python                   
 mpdecimal                 2.5.1-r2               apk                      
 musl                      1.2.4_git20230717-r4   apk                      
 musl-utils                1.2.4_git20230717-r4   apk                      
