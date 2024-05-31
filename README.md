@@ -281,6 +281,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **31.05.24:** - Rebase to Alpine 3.20.
 * **09.03.24:** - Build Playwright from source because Microsoft's build and packaging process is awful.
 * **08.03.24:** - Build Playwright-python from source, add libjpeg.
 * **23.12.23:** - Rebase to Alpine 3.19.
