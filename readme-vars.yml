@@ -38,7 +38,7 @@ opt_param_env_vars:
 custom_compose: |
   ---
   services:
-    changedetection.io:
+    changedetection:
       image: lscr.io/linuxserver/changedetection.io:latest
       container_name: changedetection
       environment:
