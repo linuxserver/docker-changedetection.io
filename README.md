@@ -74,7 +74,7 @@ To help you get started creating a container from this image you can either use 
 ```yaml
 ---
 services:
-  changedetection.io:
+  changedetection:
     image: lscr.io/linuxserver/changedetection.io:latest
     container_name: changedetection
     environment:
