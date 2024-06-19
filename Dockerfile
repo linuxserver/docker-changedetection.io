@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.19
+FROM ghcr.io/linuxserver/baseimage-alpine:3.20
 
 ARG BUILD_DATE
 ARG VERSION
@@ -45,15 +45,18 @@ RUN \
   python3 -m venv /lsiopy && \
   pip install -U --no-cache-dir \
     pip \
+    setuptools \
     wheel && \
-  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.19/ -r /app/changedetection/requirements.txt && \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.20/ -r /app/changedetection/requirements.txt && \
   PLAYWRIGHT_PY_RELEASE=$(curl -sX GET "https://api.github.com/repos/microsoft/playwright-python/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   git clone --depth 1 --branch "${PLAYWRIGHT_PY_RELEASE}" https://github.com/microsoft/playwright-python /tmp/playwright-python && \
   cd /tmp/playwright-python && \
   pip install -U --no-cache-dir . && \
-  rm -f /lsiopy/lib/python3.11/site-packages/playwright/driver/node && \
-  ln -s /usr/bin/node /lsiopy/lib/python3.11/site-packages/playwright/driver/node && \
+  rm -f /lsiopy/lib/python3.12/site-packages/playwright/driver/node && \
+  ln -s /usr/bin/node /lsiopy/lib/python3.12/site-packages/playwright/driver/node && \
+  printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
+  echo "**** cleanup ****" && \
   apk del --purge \
     build-dependencies && \
   rm -rf \
