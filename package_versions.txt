@@ -47,7 +47,7 @@ coreutils                 9.5-r1                     apk
 coreutils-env             9.5-r1                     apk                      
 coreutils-fmt             9.5-r1                     apk                      
 coreutils-sha512sum       9.5-r1                     apk                      
-cryptography              3.4.8                      python                   
+cryptography              42.0.8                     python                   
 curl                      8.8.0-r0                   apk                      
 decorator                 5.1.1                      python                   
 dnspython                 2.6.1                      python                   
@@ -177,7 +177,7 @@ types-python-dateutil     2.9.0.20240316             python
 typing-extensions         3.10.0.2                   python                   
 typing-inspect            0.5.0                      python                   
 tzdata                    2024a-r1                   apk                      
-urllib3                   1.26.18                    python                   
+urllib3                   1.26.19                    python                   
 utmps-libs                0.1.2.2-r1                 apk                      
 validators                0.29.0                     python                   
 websockets                10.4                       python                   
