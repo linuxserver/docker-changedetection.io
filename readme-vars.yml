@@ -23,6 +23,8 @@ param_usage_include_ports: true
 param_ports:
   - { external_port: "5000", internal_port: "5000", port_desc: "WebUI" }
 
+readonly_supported: true
+
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
