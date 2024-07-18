@@ -65,6 +65,11 @@ Please note that as of version 0.45.16 this image contains the Playwright conten
 
 For more info read [the wiki](https://github.com/dgtlmoon/changedetection.io/wiki).
 
+## Read-Only Operation
+
+This image can be run with a read-only container filesystem. For details please [read the docs](https://docs.linuxserver.io/misc/read-only/).
+
+
 ## Usage
 
 To help you get started creating a container from this image you can either use docker-compose or the docker cli.
@@ -119,6 +124,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e BASE_URL=` | Specify the full URL (including protocol) when running behind a reverse proxy |
 | `-e PLAYWRIGHT_DRIVER_URL=` | Specify the full URL to your chrome driver instance. See the [wiki](https://github.com/dgtlmoon/changedetection.io/wiki/Playwright-content-fetcher) for details. |
 | `-v /config` | Persistent config files |
+| `--read-only=true` | Run container with a read-only filesystem. Please [read the docs](https://docs.linuxserver.io/misc/read-only/). |
 
 ## Environment variables from files (Docker secrets)
 
