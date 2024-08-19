@@ -77,8 +77,8 @@ jaraco-functools          4.0.1                  python
 jaraco-text               3.12.1                 python                   
 jinja2                    3.1.4                  python                   
 jinja2-time               0.2.0                  python                   
-jq                        1.7.0                  python                   
 jq                        1.7.1-r0               apk                      
+jq                        1.8.0                  python                   
 jsonpath-ng               1.5.3                  python                   
 jsonschema                4.17.3                 python                   
 jstyleson                 0.0.2                  python                   
@@ -122,7 +122,7 @@ linux-pam                 1.6.0-r0               apk
 loguru                    0.7.2                  python                   
 lxml                      5.3.0                  python                   
 lxml-html-clean           0.2.0                  python                   
-markdown                  3.6                    python                   
+markdown                  3.7                    python                   
 markupsafe                2.1.5                  python                   
 mf2py                     2.0.1                  python                   
 more-itertools            10.3.0                 python                   
