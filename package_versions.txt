@@ -38,7 +38,7 @@ coreutils-env              9.5-r1                     apk
 coreutils-fmt              9.5-r1                     apk                      
 coreutils-sha512sum        9.5-r1                     apk                      
 cryptography               42.0.8                     python                   
-curl                       8.10.0-r0                  apk                      
+curl                       8.9.1-r2                   apk                      
 decorator                  5.1.1                      python                   
 dnspython                  2.6.1                      python                   
 elementpath                4.1.5                      python                   
@@ -91,7 +91,7 @@ libbase64                  0.5.2-r0                   apk
 libbsd                     0.12.2-r0                  apk                      
 libbz2                     1.0.8-r6                   apk                      
 libcrypto3                 3.3.2-r0                   apk                      
-libcurl                    8.10.0-r0                  apk                      
+libcurl                    8.9.1-r2                   apk                      
 libexpat                   2.6.3-r0                   apk                      
 libffi                     3.4.6-r0                   apk                      
 libgcc                     13.2.1_git20240309-r0      apk                      
@@ -138,7 +138,7 @@ netcat-openbsd             1.226-r0                   apk
 nghttp2-libs               1.62.1-r0                  apk                      
 nodejs                     20.15.1-r0                 apk                      
 nspr                       4.35-r4                    apk                      
-nss                        3.101-r0                   apk                      
+nss                        3.104-r0                   apk                      
 oauthlib                   3.2.2                      python                   
 oniguruma                  6.9.9-r0                   apk                      
 openjpeg                   2.5.2-r0                   apk                      
