@@ -48,7 +48,7 @@ extruct                    0.17.0                     python
 feedgen                    0.9.0                      python                   
 findutils                  4.9.0-r5                   apk                      
 flask                      2.3.3                      python                   
-flask-compress             1.15                       python                   
+flask-compress             1.17                       python                   
 flask-cors                 5.0.0                      python                   
 flask-expects-json         1.7.0                      python                   
 flask-login                0.6.3                      python                   
@@ -161,7 +161,7 @@ procps-ng                  4.0.4-r0                   apk
 pyc                        3.12.7-r0                  apk                      
 pycparser                  2.22                       python                   
 pyee                       12.0.0                     python                   
-pyparsing                  3.1.4                      python                   
+pyparsing                  3.2.0                      python                   
 pyppeteer-ng               2.0.0rc5                   python                   
 pyppeteerstealth           0.0.5                      python                   
 pyrdfa3                    3.6.4                      python                   
