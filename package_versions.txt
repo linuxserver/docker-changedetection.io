@@ -209,7 +209,7 @@ validators                 0.34.0                 python
 w3lib                      2.2.1                  python                   
 webencodings               0.5.1                  python                   
 websockets                 10.4                   python                   
-werkzeug                   3.1.0                  python                   
+werkzeug                   3.1.2                  python                   
 wheel                      0.43.0                 python                   
 wheel                      0.44.0                 python                   
 wsproto                    1.2.0                  python                   
