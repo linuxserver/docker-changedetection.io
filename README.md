@@ -65,6 +65,7 @@ Please note that as of version 0.45.16 this image contains the Playwright conten
 
 For more info read [the wiki](https://github.com/dgtlmoon/changedetection.io/wiki).
 
+ 
 ## Read-Only Operation
 
 This image can be run with a read-only container filesystem. For details please [read the docs](https://docs.linuxserver.io/misc/read-only/).
@@ -277,10 +278,10 @@ docker build \
   -t lscr.io/linuxserver/changedetection.io:latest .
 ```
 
-The ARM variants can be built on x86_64 hardware using `multiarch/qemu-user-static`
+The ARM variants can be built on x86_64 hardware and vice versa using `lscr.io/linuxserver/qemu-static`
 
 ```bash
-docker run --rm --privileged multiarch/qemu-user-static:register --reset
+docker run --rm --privileged lscr.io/linuxserver/qemu-static --reset
 ```
 
 Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64`.
