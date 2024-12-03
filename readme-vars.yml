@@ -6,31 +6,25 @@ project_url: "https://github.com/dgtlmoon/changedetection.io"
 project_logo: "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/changedetection-icon.png"
 project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) provides free, open-source web page monitoring, notification and change detection."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
-
 # supported architectures
 available_architectures:
-  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
-  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
-
+  - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - {arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
 # container parameters
 common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files" }
-
+  - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files"}
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "5000", internal_port: "5000", port_desc: "WebUI" }
-
+  - {external_port: "5000", internal_port: "5000", port_desc: "WebUI"}
 readonly_supported: true
-
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
-  - { env_var: "BASE_URL", env_value: "", desc: "Specify the full URL (including protocol) when running behind a reverse proxy" }
-  - { env_var: "PLAYWRIGHT_DRIVER_URL", env_value: "", desc: "Specify the full URL to your chrome driver instance. See the [wiki](https://github.com/dgtlmoon/changedetection.io/wiki/Playwright-content-fetcher) for details." }
-
+  - {env_var: "BASE_URL", env_value: "", desc: "Specify the full URL (including protocol) when running behind a reverse proxy"}
+  - {env_var: "PLAYWRIGHT_DRIVER_URL", env_value: "", desc: "Specify the full URL to your chrome driver instance. See the [wiki](https://github.com/dgtlmoon/changedetection.io/wiki/Playwright-content-fetcher) for details."}
 custom_compose: |
   ---
   services:
@@ -48,7 +42,6 @@ custom_compose: |
       ports:
         - 5000:5000
       restart: unless-stopped
-
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
@@ -57,16 +50,58 @@ app_setup_block: |
   Please note that as of version 0.45.16 this image contains the Playwright content fetcher.
 
   For more info read [the wiki](https://github.com/dgtlmoon/changedetection.io/wiki).
-
+# init diagram
+init_diagram: |
+  "changedetection.io:latest": {
+    docker-mods
+    base {
+      fix-attr +\nlegacy cont-init
+    }
+    docker-mods -> base
+    legacy-services
+    custom services
+    init-services -> legacy-services
+    init-services -> custom services
+    custom services -> legacy-services
+    legacy-services -> ci-service-check
+    init-migrations -> init-adduser
+    init-config -> init-changedetection-config
+    init-os-end -> init-config
+    init-changedetection-config -> init-config-end
+    init-config -> init-config-end
+    init-os-end -> init-crontab-config
+    init-mods-end -> init-custom-files
+    base -> init-envfile
+    base -> init-migrations
+    base -> init-mods
+    init-config-end -> init-mods
+    init-mods -> init-mods-end
+    init-mods-package-install -> init-mods-end
+    init-mods -> init-mods-package-install
+    base -> init-os-end
+    init-adduser -> init-os-end
+    init-envfile -> init-os-end
+    init-migrations -> init-os-end
+    init-custom-files -> init-services
+    init-mods-end -> init-services
+    init-services -> svc-changedetection
+    svc-changedetection -> legacy-services
+    init-services -> svc-cron
+    svc-cron -> legacy-services
+  }
+  Base Images: {
+    "baseimage-alpine:3.20"
+  }
+  "changedetection.io:latest" <- Base Images
 # changelog
 changelogs:
-  - { date: "31.05.24:", desc: "Rebase to Alpine 3.20."}
-  - { date: "09.03.24:", desc: "Build Playwright from source because Microsoft's build and packaging process is awful."}
-  - { date: "08.03.24:", desc: "Build Playwright-python from source, add libjpeg."}
-  - { date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
-  - { date: "10.08.23:", desc: "Add poppler-utils for pdf conversion tools." }
-  - { date: "11.06.23:", desc: "Rebase to Alpine 3.18, deprecate armhf." }
-  - { date: "05.03.23:", desc: "Rebase to Alpine 3.17." }
-  - { date: "23.10.22:", desc: "Rebase to Alpine 3.16, migrate to s6v3." }
-  - { date: "09.10.22:", desc: "Add make as build dep to fix pip jq build on armhf." }
-  - { date: "07.08.22:", desc: "Initial release." }
+  - {date: "31.05.24:", desc: "Rebase to Alpine 3.20."}
+  - {date: "09.03.24:", desc: "Build Playwright from source because Microsoft's build and packaging process is awful."}
+  - {date: "08.03.24:", desc: "Build Playwright-python from source, add libjpeg."}
+  - {date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
+  - {date: "10.08.23:", desc: "Add poppler-utils for pdf conversion tools."}
+  - {date: "11.06.23:", desc: "Rebase to Alpine 3.18, deprecate armhf."}
+  - {date: "05.03.23:", desc: "Rebase to Alpine 3.17."}
+  - {date: "23.10.22:", desc: "Rebase to Alpine 3.16, migrate to s6v3."}
+  - {date: "09.10.22:", desc: "Add make as build dep to fix pip jq build on armhf."}
+  - {date: "07.08.22:", desc: "Initial release."}
