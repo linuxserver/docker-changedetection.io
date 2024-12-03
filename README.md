@@ -65,7 +65,6 @@ Please note that as of version 0.45.16 this image contains the Playwright conten
 
 For more info read [the wiki](https://github.com/dgtlmoon/changedetection.io/wiki).
 
- 
 ## Read-Only Operation
 
 This image can be run with a read-only container filesystem. For details please [read the docs](https://docs.linuxserver.io/misc/read-only/).
@@ -73,6 +72,9 @@ This image can be run with a read-only container filesystem. For details please 
 ## Usage
 
 To help you get started creating a container from this image you can either use docker-compose or the docker cli.
+
+>[!NOTE]
+>Unless a parameter is flaged as 'optional', it is *mandatory* and a value must be provided.
 
 ### docker-compose (recommended, [click here for more info](https://docs.linuxserver.io/general/docker-compose))
 
@@ -117,7 +119,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 
 | Parameter | Function |
 | :----: | --- |
-| `-p 5000` | WebUI |
+| `-p 5000:5000` | WebUI |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
