@@ -69,6 +69,10 @@ For more info read [the wiki](https://github.com/dgtlmoon/changedetection.io/wik
 
 This image can be run with a read-only container filesystem. For details please [read the docs](https://docs.linuxserver.io/misc/read-only/).
 
+## Non-Root Operation
+
+This image can be run with a non-root user. For details please [read the docs](https://docs.linuxserver.io/misc/non-root/).
+
 ## Usage
 
 To help you get started creating a container from this image you can either use docker-compose or the docker cli.
@@ -127,6 +131,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e PLAYWRIGHT_DRIVER_URL=` | Specify the full URL to your chrome driver instance. See the [wiki](https://github.com/dgtlmoon/changedetection.io/wiki/Playwright-content-fetcher) for details. |
 | `-v /config` | Persistent config files |
 | `--read-only=true` | Run container with a read-only filesystem. Please [read the docs](https://docs.linuxserver.io/misc/read-only/). |
+| `--user=1000:1000` | Run container with a non-root user. Please [read the docs](https://docs.linuxserver.io/misc/non-root/). |
 
 ## Environment variables from files (Docker secrets)
 
@@ -290,6 +295,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **19.12.24:** - Rebase to Alpine 3.21.
 * **31.05.24:** - Rebase to Alpine 3.20.
 * **09.03.24:** - Build Playwright from source because Microsoft's build and packaging process is awful.
 * **08.03.24:** - Build Playwright-python from source, add libjpeg.
