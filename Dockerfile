@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.20
+FROM ghcr.io/linuxserver/baseimage-alpine:3.21
 
 ARG BUILD_DATE
 ARG VERSION
@@ -47,7 +47,7 @@ RUN \
     pip \
     setuptools \
     wheel && \
-  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.20/ -r /app/changedetection/requirements.txt && \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.21/ -r /app/changedetection/requirements.txt && \
   PLAYWRIGHT_PY_RELEASE=$(curl -sX GET "https://api.github.com/repos/microsoft/playwright-python/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   git clone --depth 1 --branch "${PLAYWRIGHT_PY_RELEASE}" https://github.com/microsoft/playwright-python /tmp/playwright-python && \
@@ -55,6 +55,8 @@ RUN \
   pip install -U --no-cache-dir . && \
   rm -f /lsiopy/lib/python3.12/site-packages/playwright/driver/node && \
   ln -s /usr/bin/node /lsiopy/lib/python3.12/site-packages/playwright/driver/node && \
+  # Force UTF-8 encoding for browser steps to prevent exception
+  sed -i "s|xpath_element_js = importlib.resources.files(\"changedetectionio.content_fetchers.res\").joinpath('xpath_element_scraper.js').read_text()|xpath_element_js = importlib.resources.files(\"changedetectionio.content_fetchers.res\").joinpath('xpath_element_scraper.js').read_text(encoding='utf-8')|" /app/changedetection/changedetectionio/blueprint/browser_steps/browser_steps.py && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   apk del --purge \

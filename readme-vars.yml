@@ -19,7 +19,6 @@ param_volumes:
 param_usage_include_ports: true
 param_ports:
   - {external_port: "5000", internal_port: "5000", port_desc: "WebUI"}
-readonly_supported: true
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
@@ -42,6 +41,8 @@ custom_compose: |
       ports:
         - 5000:5000
       restart: unless-stopped
+readonly_supported: true
+nonroot_supported: true
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
@@ -95,6 +96,7 @@ init_diagram: |
   "changedetection.io:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "19.12.24:", desc: "Rebase to Alpine 3.21."}
   - {date: "31.05.24:", desc: "Rebase to Alpine 3.20."}
   - {date: "09.03.24:", desc: "Build Playwright from source because Microsoft's build and packaging process is awful."}
   - {date: "08.03.24:", desc: "Build Playwright-python from source, add libjpeg."}
