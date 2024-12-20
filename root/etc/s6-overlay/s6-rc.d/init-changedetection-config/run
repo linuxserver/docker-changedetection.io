@@ -1,8 +1,7 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 
-# Force UTF-8 encoding for browser steps to prevent exception
-sed -i "s|xpath_element_js = importlib.resources.files(\"changedetectionio.content_fetchers.res\").joinpath('xpath_element_scraper.js').read_text()|xpath_element_js = importlib.resources.files(\"changedetectionio.content_fetchers.res\").joinpath('xpath_element_scraper.js').read_text(encoding='utf-8')|" /app/changedetection/changedetectionio/blueprint/browser_steps/browser_steps.py
-
-lsiown -R abc:abc \
-    /config \
+if [[ -z ${LSIO_NON_ROOT_USER} ]]; then
+    lsiown -R abc:abc \
+        /config
+fi
