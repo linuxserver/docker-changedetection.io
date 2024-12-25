@@ -32,8 +32,8 @@ certifi                    2024.12.14        python
 cffi                       1.17.1            python                   
 changedetection.io-theme   0.0.3             npm                      
 chardet                    5.2.0             python                   
-charset-normalizer         3.4.0             python                   
-click                      8.1.7             python                   
+charset-normalizer         3.4.1             python                   
+click                      8.1.8             python                   
 coreutils                  9.5-r1            apk                      
 coreutils-env              9.5-r1            apk                      
 coreutils-fmt              9.5-r1            apk                      
@@ -75,7 +75,7 @@ jaraco-collections         5.1.0             python
 jaraco-context             5.3.0             python                   
 jaraco-functools           4.0.1             python                   
 jaraco-text                3.12.1            python                   
-jinja2                     3.1.4             python                   
+jinja2                     3.1.5             python                   
 jinja2-time                0.2.0             python                   
 jq                         1.7.1-r0          apk                      
 jq                         1.8.0             python                   
