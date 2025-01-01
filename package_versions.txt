@@ -158,7 +158,7 @@ procps-ng                  4.0.4-r2          apk
 pyc                        3.12.8-r1         apk                      
 pycparser                  2.22              python                   
 pyee                       12.0.0            python                   
-pyparsing                  3.2.0             python                   
+pyparsing                  3.2.1             python                   
 pyppeteer-ng               2.0.0rc5          python                   
 pyppeteerstealth           0.0.5             python                   
 pyrdfa3                    3.6.4             python                   
@@ -219,4 +219,4 @@ xz-libs                    5.6.3-r0          apk
 zipp                       3.19.2            python                   
 zlib                       1.3.1-r2          apk                      
 zstandard                  0.23.0            python                   
-zstd-libs                  1.5.6-r1          apk                      
+zstd-libs                  1.5.6-r2          apk                      
