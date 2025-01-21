@@ -6,6 +6,7 @@ project_url: "https://github.com/dgtlmoon/changedetection.io"
 project_logo: "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/changedetection-icon.png"
 project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) provides free, open-source web page monitoring, notification and change detection."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Web Tools"
 # supported architectures
 available_architectures:
   - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
