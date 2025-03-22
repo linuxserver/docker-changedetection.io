@@ -39,7 +39,7 @@ coreutils-env              9.5-r2            apk
 coreutils-fmt              9.5-r2            apk                      
 coreutils-sha512sum        9.5-r2            apk                      
 cryptography               42.0.8            python                   
-curl                       8.12.1-r0         apk                      
+curl                       8.12.1-r1         apk                      
 decorator                  5.2.1             python                   
 dnspython                  2.6.1             python                   
 elementpath                4.1.5             python                   
@@ -68,8 +68,8 @@ icu-libs                   74.2-r0           apk
 idna                       3.10              python                   
 importlib-metadata         8.0.0             python                   
 inflect                    7.3.1             python                   
-iniconfig                  2.0.0             python                   
-inscriptis                 2.5.3             python                   
+iniconfig                  2.1.0             python                   
+inscriptis                 2.6.0             python                   
 itsdangerous               2.2.0             python                   
 jaraco-collections         5.1.0             python                   
 jaraco-context             5.3.0             python                   
@@ -88,7 +88,7 @@ libattr                    2.5.2-r2          apk
 libbsd                     0.12.2-r0         apk                      
 libbz2                     1.0.8-r6          apk                      
 libcrypto3                 3.3.3-r0          apk                      
-libcurl                    8.12.1-r0         apk                      
+libcurl                    8.12.1-r1         apk                      
 libexpat                   2.7.0-r0          apk                      
 libffi                     3.4.7-r0          apk                      
 libgcc                     14.2.0-r4         apk                      
@@ -144,6 +144,7 @@ ordered-set                4.1.0             python
 outcome                    1.3.0.post0       python                   
 packaging                  24.2              python  (+1 duplicate)   
 paho-mqtt                  2.1.0             python                   
+panzi-json-logic           1.0.1             python                   
 pillow                     11.1.0            python                   
 pip                        25.0.1            python                   
 pixman                     0.43.4-r1         apk                      
@@ -154,7 +155,9 @@ pluggy                     1.5.0             python
 ply                        3.11              python                   
 poppler                    24.02.0-r2        apk                      
 poppler-utils              24.02.0-r2        apk                      
+price-parser               0.4.0             python                   
 procps-ng                  4.0.4-r2          apk                      
+psutil                     7.0.0             python                   
 pyc                        3.12.9-r0         apk                      
 pycparser                  2.22              python                   
 pyee                       12.1.1            python                   
@@ -180,7 +183,7 @@ requests-oauthlib          2.0.0             python
 rpds-py                    0.23.1            python                   
 scanelf                    1.3.8-r1          apk                      
 selenium                   4.14.0            python                   
-setuptools                 76.1.0            python                   
+setuptools                 77.0.3            python                   
 shadow                     4.16.0-r1         apk                      
 simdjson                   3.10.1-r0         apk                      
 simdutf                    5.6.3-r0          apk                      
@@ -211,8 +214,7 @@ w3lib                      2.3.1             python
 webencodings               0.5.1             python                   
 websockets                 10.4              python                   
 werkzeug                   3.0.6             python                   
-wheel                      0.43.0            python                   
-wheel                      0.45.1            python                   
+wheel                      0.45.1            python  (+1 duplicate)   
 wsproto                    1.2.0             python                   
 wtforms                    3.2.1             python                   
 xz-libs                    5.6.3-r0          apk                      
