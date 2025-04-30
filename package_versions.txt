@@ -27,7 +27,7 @@ ca-certificates            20241121-r1       apk
 ca-certificates-bundle     20241121-r1       apk                        
 cairo                      1.18.2-r1         apk                        
 catatonit                  0.2.0-r0          apk                        
-certifi                    2025.1.31         python                     
+certifi                    2025.4.26         python                     
 cffi                       1.17.1            python                     
 cfgv                       3.4.0             python                     
 changedetection.io-theme   0.0.3             npm                        
@@ -62,7 +62,7 @@ fontconfig                 2.15.0-r1         apk
 freetype                   2.13.3-r0         apk                        
 gdbm                       1.24-r0           apk                        
 greenlet                   3.2.1             python                     
-h11                        0.14.0            python                     
+h11                        0.16.0            python                     
 html-text                  0.7.0             python                     
 html5lib                   1.1               python                     
 icu-data-en                74.2-r0           apk                        
@@ -84,7 +84,7 @@ jq                         1.7.1-r0          apk
 jq                         1.8.0             python                     
 jsonpath-ng                1.5.3             python                     
 jsonschema                 4.23.0            python                     
-jsonschema-specifications  2024.10.1         python                     
+jsonschema-specifications  2025.4.1          python                     
 jstyleson                  0.0.2             python                     
 lcms2                      2.16-r0           apk                        
 libattr                    2.5.2-r2          apk                        
@@ -151,12 +151,12 @@ packaging                  25.0              python
 paho-mqtt                  2.1.0             python                     
 panzi-json-logic           1.0.1             python                     
 pillow                     11.2.1            python                     
-pip                        25.0.1            python                     
+pip                        25.1              python                     
 pixman                     0.43.4-r1         apk                        
 platformdirs               4.2.2             python                     
 platformdirs               4.3.7             python                     
-playwright                 1.51.0            python                     
-playwright-core            1.51.1            npm                        
+playwright                 1.52.0            python                     
+playwright-core            1.52.0            npm                        
 pluggy                     1.5.0             python                     
 ply                        3.11              python                     
 poppler                    24.02.0-r2        apk                        
@@ -168,7 +168,7 @@ procps-ng                  4.0.4-r2          apk
 psutil                     7.0.0             python                     
 pyc                        3.12.10-r0        apk                        
 pycparser                  2.22              python                     
-pyee                       12.1.1            python                     
+pyee                       13.0.0            python                     
 pyparsing                  3.2.3             python                     
 pyppeteer-ng               2.0.0rc9          python                     
 pyppeteerstealth           0.0.5             python                     
@@ -189,10 +189,10 @@ requests                   2.32.3            python
 requests-file              2.1.0             python                     
 requests-oauthlib          2.0.0             python                     
 rpds-py                    0.24.0            python                     
-ruff                       0.11.6            python                     
+ruff                       0.11.7            python                     
 scanelf                    1.3.8-r1          apk                        
 selenium                   4.14.0            python                     
-setuptools                 79.0.0            python                     
+setuptools                 80.0.1            python                     
 shadow                     4.16.0-r1         apk                        
 simdjson                   3.10.1-r0         apk                        
 simdutf                    5.6.3-r0          apk                        
