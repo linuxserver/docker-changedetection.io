@@ -32,7 +32,7 @@ cffi                       1.17.1            python
 cfgv                       3.4.0             python                     
 changedetection.io-theme   0.0.3             npm                        
 chardet                    5.2.0             python                     
-charset-normalizer         3.4.1             python                     
+charset-normalizer         3.4.2             python                     
 click                      8.1.8             python                     
 coreutils                  9.5-r2            apk                        
 coreutils-env              9.5-r2            apk                        
@@ -87,6 +87,7 @@ jsonschema                 4.23.0            python
 jsonschema-specifications  2025.4.1          python                     
 jstyleson                  0.0.2             python                     
 lcms2                      2.16-r0           apk                        
+levenshtein                0.27.1            python                     
 libattr                    2.5.2-r2          apk                        
 libbsd                     0.12.2-r0         apk                        
 libbz2                     1.0.8-r6          apk                        
@@ -151,7 +152,7 @@ packaging                  25.0              python
 paho-mqtt                  2.1.0             python                     
 panzi-json-logic           1.0.1             python                     
 pillow                     11.2.1            python                     
-pip                        25.1              python                     
+pip                        25.1.1            python                     
 pixman                     0.43.4-r1         apk                        
 platformdirs               4.2.2             python                     
 platformdirs               4.3.7             python                     
@@ -170,7 +171,7 @@ pyc                        3.12.10-r0        apk
 pycparser                  2.22              python                     
 pyee                       13.0.0            python                     
 pyparsing                  3.2.3             python                     
-pyppeteer-ng               2.0.0rc9          python                     
+pyppeteer-ng               2.0.0rc10         python                     
 pyppeteerstealth           0.0.5             python                     
 pyrdfa3                    3.6.4             python                     
 pysocks                    1.7.1             python                     
@@ -182,6 +183,7 @@ python3-pyc                3.12.10-r0        apk
 python3-pycache-pyc0       3.12.10-r0        apk                        
 pytz                       2025.2            python                     
 pyyaml                     6.0.2             python                     
+rapidfuzz                  3.13.0            python                     
 rdflib                     7.1.4             python                     
 readline                   8.2.13-r0         apk                        
 referencing                0.35.1            python                     
@@ -189,10 +191,10 @@ requests                   2.32.3            python
 requests-file              2.1.0             python                     
 requests-oauthlib          2.0.0             python                     
 rpds-py                    0.24.0            python                     
-ruff                       0.11.7            python                     
+ruff                       0.11.8            python                     
 scanelf                    1.3.8-r1          apk                        
-selenium                   4.14.0            python                     
-setuptools                 80.0.1            python                     
+selenium                   4.31.0            python                     
+setuptools                 80.3.0            python                     
 shadow                     4.16.0-r1         apk                        
 simdjson                   3.10.1-r0         apk                        
 simdutf                    5.6.3-r0          apk                        
@@ -218,10 +220,11 @@ tzdata                     2025.2            python
 tzdata                     2025b-r0          apk                        
 urllib3                    1.26.19           python                     
 utmps-libs                 0.1.2.3-r2        apk                        
-validators                 0.34.0            python                     
+validators                 0.35.0            python                     
 virtualenv                 20.30.0           python                     
 w3lib                      2.3.1             python                     
 webencodings               0.5.1             python                     
+websocket-client           1.8.0             python                     
 websockets                 10.4              python                     
 werkzeug                   3.0.6             python                     
 wheel                      0.45.1            python     (+1 duplicate)  
