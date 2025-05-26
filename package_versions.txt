@@ -95,7 +95,7 @@ jinja2-time                0.2.0             python
 jq                         1.7.1-r0          apk                          
 jq                         1.8.0             python                       
 jsonpath-ng                1.5.3             python                       
-jsonschema                 4.23.0            python                       
+jsonschema                 4.24.0            python                       
 jsonschema-specifications  2025.4.1          python                       
 jstyleson                  0.0.2             python                       
 lcms2                      2.16-r0           apk                          
