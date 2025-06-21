@@ -135,7 +135,7 @@ linux-pam                  1.6.1-r1          apk
 loguru                     0.7.3             python                       
 lxml                       5.4.0             python                       
 lxml-html-clean            0.4.2             python                       
-markdown                   3.8               python                       
+markdown                   3.8.2             python                       
 markupsafe                 3.0.2             python                       
 mf2py                      2.0.1             python                       
 more-itertools             10.3.0            python                       
@@ -151,7 +151,7 @@ nodeenv                    1.9.1             python
 nodejs                     22.15.1-r0        apk                          
 nspr                       4.36-r0           apk                          
 nss                        3.109-r0          apk                          
-oauthlib                   3.3.0             python                       
+oauthlib                   3.3.1             python                       
 oniguruma                  6.9.9-r0          apk                          
 openjpeg                   2.5.2-r0          apk                          
 openpyxl                   3.1.5             python                       
