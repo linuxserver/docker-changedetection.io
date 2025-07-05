@@ -4,6 +4,9 @@ on:
     - cron:  '54 13 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   stale:
     permissions:
