@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.21
+FROM ghcr.io/linuxserver/baseimage-alpine:3.22
 
 ARG BUILD_DATE
 ARG VERSION
@@ -47,7 +47,7 @@ RUN \
     pip \
     setuptools \
     wheel && \
-  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.21/ -r /app/changedetection/requirements.txt && \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.22/ -r /app/changedetection/requirements.txt && \
   PLAYWRIGHT_PY_RELEASE=$(curl -sX GET "https://api.github.com/repos/microsoft/playwright-python/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   git clone --depth 1 --branch "${PLAYWRIGHT_PY_RELEASE}" https://github.com/microsoft/playwright-python /tmp/playwright-python && \
