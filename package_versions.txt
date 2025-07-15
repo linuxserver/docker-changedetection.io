@@ -29,7 +29,7 @@ ca-certificates            20241121-r2       apk
 ca-certificates-bundle     20241121-r2       apk                          
 cairo                      1.18.4-r0         apk                          
 catatonit                  0.2.1-r0          apk                          
-certifi                    2025.7.9          python                       
+certifi                    2025.7.14         python                       
 cffi                       1.17.1            python                       
 cfgv                       3.4.0             python                       
 changedetection.io-theme   0.0.3             npm                          
@@ -90,8 +90,8 @@ jaraco-functools           4.0.1             python
 jaraco-text                3.12.1            python                       
 jinja2                     3.1.6             python                       
 jinja2-time                0.2.0             python                       
+jq                         1.10.0            python                       
 jq                         1.8.0-r0          apk                          
-jq                         1.9.1             python                       
 jsonpath-ng                1.5.3             python                       
 jsonschema                 4.24.0            python                       
 jsonschema-specifications  2025.4.1          python                       
