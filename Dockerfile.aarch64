@@ -24,6 +24,7 @@ RUN \
     zip \
     zlib-dev && \
   apk add --update --no-cache \
+    file \
     libjpeg \
     libxslt \
     nodejs \
