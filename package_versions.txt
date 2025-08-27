@@ -17,7 +17,7 @@ autocommand                2.2.2             python
 babel                      2.17.0            python                       
 backports-tarfile          1.2.0             python                       
 bash                       5.2.37-r0         apk                          
-beautifulsoup4             4.13.4            python                       
+beautifulsoup4             4.13.5            python                       
 bidict                     0.23.1            python                       
 blinker                    1.9.0             python                       
 brotli                     1.1.0             python                       
@@ -150,7 +150,7 @@ nghttp2-libs               1.65.0-r0         apk
 nodeenv                    1.9.1             python                       
 nodejs                     22.16.0-r2        apk                          
 nspr                       4.36-r0           apk                          
-nss                        3.112-r0          apk                          
+nss                        3.114-r0          apk                          
 oauthlib                   3.3.1             python                       
 oniguruma                  6.9.10-r0         apk                          
 openjpeg                   2.5.3-r0          apk                          
@@ -165,7 +165,7 @@ pillow                     11.3.0            python
 pip                        25.2              python                       
 pixman                     0.46.4-r0         apk                          
 platformdirs               4.2.2             python                       
-platformdirs               4.3.8             python                       
+platformdirs               4.4.0             python                       
 playwright                 1.54.0            python                       
 playwright-core            1.54.1            npm                          
 pluggy                     1.6.0             python                       
@@ -204,7 +204,7 @@ requests                   2.32.5            python
 requests-file              2.1.0             python                       
 requests-oauthlib          2.0.0             python                       
 rpds-py                    0.27.0            python                       
-ruff                       0.12.9            python                       
+ruff                       0.12.10           python                       
 scanelf                    1.3.8-r1          apk                          
 selenium                   4.31.0            python                       
 selenium-manager           UNKNOWN           binary                       
@@ -227,9 +227,9 @@ tqdm                       4.67.1            python
 trio                       0.30.0            python                       
 trio-websocket             0.12.2            python                       
 typeguard                  4.3.0             python                       
-types-python-dateutil      2.9.0.20250809    python                       
+types-python-dateutil      2.9.0.20250822    python                       
 typing-extensions          4.12.2            python                       
-typing-extensions          4.14.1            python                       
+typing-extensions          4.15.0            python                       
 typing-inspect             0.5.0             python                       
 tzdata                     2025.2            python                       
 tzdata                     2025b-r0          apk                          
