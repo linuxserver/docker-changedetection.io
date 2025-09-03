@@ -68,7 +68,7 @@ flask-wtf                  1.2.2                      python
 fontconfig                 2.15.0-r3                  apk                          
 freetype                   2.13.3-r0                  apk                          
 gdbm                       1.24-r0                    apk                          
-gevent                     25.8.1                     python                       
+gevent                     25.8.2                     python                       
 greenlet                   3.2.4                      python                       
 gui                        UNKNOWN                    binary                       
 gui-32                     UNKNOWN                    binary                       
@@ -145,7 +145,7 @@ markdown                   3.8.2                      python
 markupsafe                 3.0.2                      python                       
 mf2py                      2.0.1                      python                       
 more-itertools             10.3.0                     python                       
-more-itertools             10.7.0                     python                       
+more-itertools             10.8.0                     python                       
 mpdecimal                  4.0.1-r0                   apk                          
 musl                       1.2.5-r10                  apk                          
 musl-utils                 1.2.5-r10                  apk                          
