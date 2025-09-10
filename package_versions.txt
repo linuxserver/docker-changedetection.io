@@ -30,7 +30,7 @@ ca-certificates-bundle     20250619-r0                apk
 cairo                      1.18.4-r0                  apk                          
 catatonit                  0.2.1-r0                   apk                          
 certifi                    2025.8.3                   python                       
-cffi                       1.17.1                     python                       
+cffi                       2.0.0                      python                       
 cfgv                       3.4.0                      python                       
 changedetection-api-docs   1.0.0                      npm                          
 changedetection.io-theme   0.0.3                      npm                          
@@ -99,7 +99,7 @@ jq                         1.8.0-r0                   apk
 jsonpath-ng                1.5.3                      python                       
 jsonschema                 4.25.1                     python                       
 jsonschema-path            0.3.4                      python                       
-jsonschema-specifications  2025.4.1                   python                       
+jsonschema-specifications  2025.9.1                   python                       
 jstyleson                  0.0.2                      python                       
 lazy-object-proxy          1.12.0                     python                       
 lcms2                      2.16-r0                    apk                          
@@ -190,7 +190,7 @@ price-parser               0.4.0                      python
 procps-ng                  4.0.4-r3                   apk                          
 psutil                     7.0.0                      python                       
 pyc                        3.12.11-r0                 apk                          
-pycparser                  2.22                       python                       
+pycparser                  2.23                       python                       
 pyee                       13.0.0                     python                       
 pyparsing                  3.2.3                      python                       
 pyppeteer-ng               2.0.0rc10                  python                       
@@ -209,7 +209,7 @@ python3-pycache-pyc0       3.12.11-r0                 apk
 pytz                       2025.2                     python                       
 pyyaml                     6.0.2                      python                       
 pyzstd                     0.17.0                     python                       
-rapidfuzz                  3.14.0                     python                       
+rapidfuzz                  3.14.1                     python                       
 rdflib                     7.1.4                      python                       
 readline                   8.2.13-r1                  apk                          
 referencing                0.35.1                     python                       
@@ -238,7 +238,7 @@ tiff                       4.7.0-r0                   apk
 timeago                    1.0.16                     python                       
 tomli                      2.0.1                      python                       
 tqdm                       4.67.1                     python                       
-trio                       0.30.0                     python                       
+trio                       0.31.0                     python                       
 trio-websocket             0.12.2                     python                       
 typeguard                  4.3.0                      python                       
 types-python-dateutil      2.9.0.20250822             python                       
