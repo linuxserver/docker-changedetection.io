@@ -75,7 +75,7 @@ gui-32                     UNKNOWN                    binary
 gui-64                     UNKNOWN                    binary                       
 gui-arm64                  UNKNOWN                    binary                       
 h11                        0.16.0                     python                       
-html-text                  0.7.0                      python                       
+html-text                  0.7.1                      python                       
 html5lib                   1.1                        python                       
 icu-data-en                76.1-r1                    apk                          
 icu-libs                   76.1-r1                    apk                          
@@ -186,7 +186,7 @@ poppler                    25.04.0-r0                 apk
 poppler-utils              25.04.0-r0                 apk                          
 pre-commit                 4.3.0                      python                       
 pre-commit-package         dev-1                      lua-rocks                    
-price-parser               0.4.0                      python                       
+price-parser               0.5.0                      python                       
 procps-ng                  4.0.4-r3                   apk                          
 psutil                     7.0.0                      python                       
 pyc                        3.12.11-r0                 apk                          
