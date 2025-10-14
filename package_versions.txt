@@ -35,7 +35,7 @@ cfgv                       3.4.0                      python
 changedetection-api-docs   1.0.0                      npm                          
 changedetection.io-theme   0.0.3                      npm                          
 chardet                    5.2.0                      python                       
-charset-normalizer         3.4.3                      python                       
+charset-normalizer         3.4.4                      python                       
 cli                        UNKNOWN                    binary                       
 cli-32                     UNKNOWN                    binary                       
 cli-64                     UNKNOWN                    binary                       
