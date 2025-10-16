@@ -137,6 +137,7 @@ libxext                    1.3.6-r2                   apk
 libxml2                    2.13.9-r0                  apk                          
 libxrender                 0.9.12-r0                  apk                          
 libxslt                    1.1.43-r3                  apk                          
+linkify-it-py              2.0.3                      python                       
 linux-pam                  1.7.0-r4                   apk                          
 loguru                     0.7.3                      python                       
 lxml                       5.4.0                      python                       
@@ -173,7 +174,7 @@ paho-mqtt                  2.1.0                      python
 panzi-json-logic           1.0.1                      python                       
 parse                      1.20.2                     python                       
 pathable                   0.4.4                      python                       
-pillow                     11.3.0                     python                       
+pillow                     12.0.0                     python                       
 pip                        25.2                       python                       
 pixman                     0.46.4-r0                  apk                          
 platformdirs               4.2.2                      python                       
@@ -215,7 +216,7 @@ rdflib                     7.2.1                      python
 readline                   8.2.13-r1                  apk                          
 referencing                0.35.1                     python                       
 requests                   2.32.5                     python                       
-requests-file              2.1.0                      python                       
+requests-file              3.0.0                      python                       
 requests-oauthlib          2.0.0                      python                       
 rfc3339-validator          0.1.4                      python                       
 rpds-py                    0.27.1                     python                       
@@ -249,6 +250,7 @@ typing-extensions          4.15.0                     python
 typing-inspect             0.5.0                      python                       
 tzdata                     2025.2                     python                       
 tzdata                     2025b-r0                   apk                          
+uc-micro-py                1.0.3                      python                       
 urllib3                    1.26.20                    python                       
 utmps-libs                 0.1.3.1-r0                 apk                          
 validators                 0.35.0                     python                       
