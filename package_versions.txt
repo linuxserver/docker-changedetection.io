@@ -11,7 +11,7 @@ aniso8601                  10.0.1                     python
 apk-tools                  2.14.9-r3                  apk                          
 appdirs                    1.4.4                      python                       
 apprise                    1.9.5                      python                       
-arrow                      1.3.0                      python                       
+arrow                      1.4.0                      python                       
 attrs                      25.4.0                     python                       
 autocommand                2.2.2                      python                       
 babel                      2.17.0                     python                       
@@ -84,7 +84,7 @@ identify                   2.6.15                     python
 idna                       3.11                       python                       
 importlib-metadata         8.0.0                      python                       
 inflect                    7.3.1                      python                       
-iniconfig                  2.1.0                      python                       
+iniconfig                  2.3.0                      python                       
 inscriptis                 2.6.0                      python                       
 isodate                    0.7.2                      python                       
 itsdangerous               2.2.0                      python                       
@@ -244,7 +244,6 @@ tqdm                       4.67.1                     python
 trio                       0.31.0                     python                       
 trio-websocket             0.12.2                     python                       
 typeguard                  4.3.0                      python                       
-types-python-dateutil      2.9.0.20251008             python                       
 typing-extensions          4.12.2                     python                       
 typing-extensions          4.15.0                     python                       
 typing-inspect             0.5.0                      python                       
