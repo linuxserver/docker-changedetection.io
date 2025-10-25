@@ -176,7 +176,7 @@ panzi-json-logic           1.0.1                      python
 parse                      1.20.2                     python                       
 pathable                   0.4.4                      python                       
 pillow                     12.0.0                     python                       
-pip                        25.2                       python                       
+pip                        25.3                       python                       
 pixman                     0.46.4-r0                  apk                          
 platformdirs               4.2.2                      python                       
 platformdirs               4.5.0                      python                       
