@@ -48,7 +48,6 @@ coreutils-fmt              9.7-r1                     apk
 coreutils-sha512sum        9.7-r1                     apk                          
 cryptography               44.0.1                     python                       
 curl                       8.14.1-r2                  apk                          
-decorator                  5.2.1                      python                       
 distlib                    0.4.0                      python                       
 elementpath                5.0.4                      python                       
 et-xmlfile                 2.0.0                      python                       
@@ -98,14 +97,14 @@ jaraco-text                3.12.1                     python
 jinja2                     3.1.6                      python                       
 jq                         1.10.0                     python                       
 jq                         1.8.0-r0                   apk                          
-jsonpath-ng                1.5.3                      python                       
+jsonpath-ng                1.7.0                      python                       
 jsonschema                 4.25.1                     python                       
 jsonschema-path            0.3.4                      python                       
 jsonschema-specifications  2025.9.1                   python                       
 jstyleson                  0.0.2                      python                       
 lazy-object-proxy          1.12.0                     python                       
 lcms2                      2.16-r0                    apk                          
-levenshtein                0.27.1                     python                       
+levenshtein                0.27.3                     python                       
 libapk2                    2.14.9-r3                  apk                          
 libattr                    2.5.2-r2                   apk                          
 libbsd                     0.12.2-r0                  apk                          
@@ -213,7 +212,7 @@ python3-pyc                3.12.12-r0                 apk
 python3-pycache-pyc0       3.12.12-r0                 apk                          
 pytz                       2025.2                     python                       
 pyyaml                     6.0.3                      python                       
-rapidfuzz                  3.14.1                     python                       
+rapidfuzz                  3.14.3                     python                       
 rdflib                     7.4.0                      python                       
 readline                   8.2.13-r1                  apk                          
 referencing                0.35.1                     python                       
@@ -222,7 +221,7 @@ requests-file              3.0.1                      python
 requests-oauthlib          2.0.0                      python                       
 rfc3339-validator          0.1.4                      python                       
 rpds-py                    0.28.0                     python                       
-ruff                       0.14.2                     python                       
+ruff                       0.14.3                     python                       
 scanelf                    1.3.8-r1                   apk                          
 selenium                   4.31.0                     python                       
 selenium-manager           UNKNOWN                    binary                       
@@ -243,7 +242,7 @@ tiff                       4.7.1-r0                   apk
 timeago                    1.0.16                     python                       
 tomli                      2.0.1                      python                       
 tqdm                       4.67.1                     python                       
-trio                       0.31.0                     python                       
+trio                       0.32.0                     python                       
 trio-websocket             0.12.2                     python                       
 typeguard                  4.3.0                      python                       
 typing-extensions          4.12.2                     python                       
