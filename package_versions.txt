@@ -59,7 +59,7 @@ file                       5.46-r2                    apk
 filelock                   3.20.0                     python                       
 findutils                  4.10.0-r0                  apk                          
 flask                      3.1.2                      python                       
-flask-compress             1.20                       python                       
+flask-compress             1.22                       python                       
 flask-cors                 6.0.1                      python                       
 flask-expects-json         1.7.0                      python                       
 flask-login                0.6.3                      python                       
@@ -143,7 +143,7 @@ linux-pam                  1.7.0-r4                   apk
 loguru                     0.7.3                      python                       
 lxml                       5.4.0                      python                       
 lxml-html-clean            0.4.3                      python                       
-markdown                   3.9                        python                       
+markdown                   3.10                       python                       
 markupsafe                 3.0.3                      python                       
 mf2py                      2.0.1                      python                       
 more-itertools             10.3.0                     python                       
