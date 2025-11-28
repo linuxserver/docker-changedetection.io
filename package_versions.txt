@@ -122,7 +122,7 @@ libmagic                   5.46-r2           apk
 libmd                      1.1.0-r0          apk                          
 libncursesw                6.5_p20250503-r0  apk                          
 libpanelw                  6.5_p20250503-r0  apk                          
-libpng                     1.6.47-r0         apk                          
+libpng                     1.6.51-r0         apk                          
 libproc2                   4.0.4-r3          apk                          
 libpsl                     0.21.5-r3         apk                          
 libsharpyuv                1.5.0-r0          apk                          
@@ -214,7 +214,7 @@ python3-pycache-pyc0       3.12.12-r0        apk
 pytz                       2025.2            python                       
 pyyaml                     6.0.3             python                       
 rapidfuzz                  3.14.3            python                       
-rdflib                     7.4.0             python                       
+rdflib                     7.5.0             python                       
 readline                   8.2.13-r1         apk                          
 referencing                0.35.1            python                       
 requests                   2.32.5            python                       
