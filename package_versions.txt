@@ -30,7 +30,7 @@ ca-certificates            20250911-r0                apk
 ca-certificates-bundle     20250911-r0                apk                          
 cairo                      1.18.4-r0                  apk                          
 catatonit                  0.2.1-r0                   apk                          
-certifi                    2025.11.12                 python                       
+certifi                    2026.1.4                   python                       
 cffi                       2.0.0                      python                       
 cfgv                       3.5.0                      python                       
 changedetection-api-docs   1.0.0                      npm                          
@@ -56,7 +56,7 @@ extruct                    0.18.0                     python
 feedgen                    1.0.0                      python                       
 feedparser                 6.0.12                     python                       
 file                       5.46-r2                    apk                          
-filelock                   3.20.1                     python                       
+filelock                   3.20.2                     python                       
 findutils                  4.10.0-r0                  apk                          
 flask                      3.1.2                      python                       
 flask-compress             1.23                       python                       
@@ -175,7 +175,7 @@ packaging                  25.0                       python
 paho-mqtt                  2.1.0                      python                       
 panzi-json-logic           1.0.1                      python                       
 pathable                   0.4.4                      python                       
-pillow                     12.0.0                     python                       
+pillow                     12.1.0                     python                       
 pip                        25.3                       python                       
 pixman                     0.46.4-r0                  apk                          
 platformdirs               4.2.2                      python                       
