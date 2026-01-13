@@ -83,7 +83,7 @@ html-text                  0.7.1                      python
 html5lib                   1.1                        python                       
 icu-data-en                76.1-r1                    apk                          
 icu-libs                   76.1-r1                    apk                          
-identify                   2.6.15                     python                       
+identify                   2.6.16                     python                       
 idna                       3.11                       python                       
 importlib-metadata         8.0.0                      python                       
 inflect                    7.3.1                      python                       
