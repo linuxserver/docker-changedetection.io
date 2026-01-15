@@ -199,7 +199,7 @@ pycparser                  2.23                       python
 pyee                       13.0.0                     python                       
 pygments                   2.19.2                     python                       
 pyparsing                  3.3.1                      python                       
-pyppeteer-ng               2.0.0rc10                  python                       
+pyppeteer-ng               2.0.0rc11                  python                       
 pyppeteerstealth           0.0.5                      python                       
 pyrdfa3                    3.6.4                      python                       
 pysocks                    1.7.1                      python                       
