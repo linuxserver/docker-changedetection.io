@@ -8,7 +8,8 @@ ARG CHANGEDETECTION_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thespad"
 
-ENV PYTHONUNBUFFERED=1
+ENV PYTHONUNBUFFERED=1 \
+    CRYPTOGRAPHY_DONT_BUILD_RUST=1
 
 RUN \
   apk add --update --no-cache --virtual=build-dependencies \
@@ -46,12 +47,10 @@ RUN \
   python3 -m venv /lsiopy && \
   pip install -U --no-cache-dir \
     pip \
-    setuptools \
-    wheel && \
+    setuptools && \
   pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.23/ -r /app/changedetection/requirements.txt && \
-  # PLAYWRIGHT_PY_RELEASE=$(curl -sX GET "https://api.github.com/repos/microsoft/playwright-python/releases/latest" \
-  #   | awk '/tag_name/{print $4;exit}' FS='[""]'); \
-  PLAYWRIGHT_PY_RELEASE="release-1.56" && \
+  PLAYWRIGHT_PY_RELEASE=$(curl -sX GET "https://api.github.com/repos/microsoft/playwright-python/releases/latest" \
+    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   git clone --depth 1 --branch "${PLAYWRIGHT_PY_RELEASE}" https://github.com/microsoft/playwright-python /tmp/playwright-python && \
   cd /tmp/playwright-python && \
   pip install -U --no-cache-dir . && \

@@ -75,7 +75,7 @@ This image can be run with a non-root user. For details please [read the docs](h
 To help you get started creating a container from this image you can either use docker-compose or the docker cli.
 
 >[!NOTE]
->Unless a parameter is flaged as 'optional', it is *mandatory* and a value must be provided.
+>Unless a parameter is flagged as 'optional', it is *mandatory* and a value must be provided.
 
 ### docker-compose (recommended, [click here for more info](https://docs.linuxserver.io/general/docker-compose))
 
@@ -292,7 +292,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **18.01.26:** - Rebase to Alpine 3.23. Pin Playright to v1.56.1
+* **18.01.26:** - Rebase to Alpine 3.23.
 * **05.07.25:** - Rebase to Alpine 3.22.
 * **19.12.24:** - Rebase to Alpine 3.21.
 * **31.05.24:** - Rebase to Alpine 3.20.
