@@ -30,7 +30,7 @@ ca-certificates            20251003-r0       apk
 ca-certificates-bundle     20251003-r0       apk                          
 cairo                      1.18.4-r0         apk                          
 catatonit                  0.2.1-r0          apk                          
-certifi                    2026.1.4          python                       
+certifi                    2026.2.25         python                       
 cffi                       2.0.0             python                       
 cfgv                       3.5.0             python                       
 changedetection-api-docs   1.0.0             npm                          
@@ -120,7 +120,7 @@ libmagic                   5.46-r2           apk
 libmd                      1.1.0-r0          apk                          
 libncursesw                6.5_p20251123-r0  apk                          
 libpanelw                  6.5_p20251123-r0  apk                          
-libpng                     1.6.54-r0         apk                          
+libpng                     1.6.55-r0         apk                          
 libproc2                   4.0.5-r0          apk                          
 libpsl                     0.21.5-r3         apk                          
 libsharpyuv                1.6.0-r0          apk                          
