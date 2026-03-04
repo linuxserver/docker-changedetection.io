@@ -35,7 +35,7 @@ cffi                       2.0.0             python
 cfgv                       3.5.0             python                       
 changedetection-api-docs   1.0.0             npm                          
 changedetection.io-theme   0.0.3             npm                          
-chardet                    6.0.0.post1       python                       
+chardet                    7.0.0             python                       
 charset-normalizer         3.4.4             python                       
 cli                        UNKNOWN           binary                       
 cli-32                     UNKNOWN           binary                       
@@ -57,7 +57,7 @@ extruct                    0.18.0            python
 feedgen                    1.0.0             python                       
 feedparser                 6.0.12            python                       
 file                       5.46-r2           apk                          
-filelock                   3.24.3            python                       
+filelock                   3.25.0            python                       
 findutils                  4.10.0-r0         apk                          
 flask                      3.1.3             python                       
 flask-babel                4.0.0             python                       
@@ -82,7 +82,7 @@ html-text                  0.7.1             python
 html5lib                   1.1               python                       
 icu-data-en                76.1-r1           apk                          
 icu-libs                   76.1-r1           apk                          
-identify                   2.6.16            python                       
+identify                   2.6.17            python                       
 idna                       3.11              python                       
 importlib-metadata         8.7.1             python                       
 iniconfig                  2.3.0             python                       
@@ -136,7 +136,7 @@ libxext                    1.3.6-r2          apk
 libxml2                    2.13.9-r0         apk                          
 libxrender                 0.9.12-r0         apk                          
 libxslt                    1.1.43-r3         apk                          
-linkify-it-py              2.0.3             python                       
+linkify-it-py              2.1.0             python                       
 linux-pam                  1.7.1-r2          apk                          
 loguru                     0.7.3             python                       
 lxml                       6.0.2             python                       
@@ -207,7 +207,7 @@ python-socketio            5.16.1            python
 python3                    3.12.12-r0        apk                          
 python3-pyc                3.12.12-r0        apk                          
 python3-pycache-pyc0       3.12.12-r0        apk                          
-pytz                       2025.2            python                       
+pytz                       2026.1.post1      python                       
 pyyaml                     6.0.3             python                       
 rapidfuzz                  3.14.3            python                       
 rdflib                     7.6.0             python                       
@@ -245,7 +245,7 @@ typing-extensions          4.15.0            python
 typing-inspect             0.5.0             python                       
 tzdata                     2025.3            python                       
 tzdata                     2025c-r0          apk                          
-uc-micro-py                1.0.3             python                       
+uc-micro-py                2.0.0             python                       
 urllib3                    1.26.20           python                       
 utmps-libs                 0.1.3.1-r0        apk                          
 validators                 0.35.0            python                       
