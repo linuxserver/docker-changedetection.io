@@ -35,8 +35,8 @@ cffi                       2.0.0             python
 cfgv                       3.5.0             python                       
 changedetection-api-docs   1.0.0             npm                          
 changedetection.io-theme   0.0.3             npm                          
-chardet                    7.0.0             python                       
-charset-normalizer         3.4.4             python                       
+chardet                    7.0.1             python                       
+charset-normalizer         3.4.5             python                       
 cli                        UNKNOWN           binary                       
 cli-32                     UNKNOWN           binary                       
 cli-64                     UNKNOWN           binary                       
@@ -57,7 +57,7 @@ extruct                    0.18.0            python
 feedgen                    1.0.0             python                       
 feedparser                 6.0.12            python                       
 file                       5.46-r2           apk                          
-filelock                   3.25.0            python                       
+filelock                   3.25.1            python                       
 findutils                  4.10.0-r0         apk                          
 flask                      3.1.3             python                       
 flask-babel                4.0.0             python                       
@@ -175,7 +175,7 @@ pillow                     12.1.1            python
 pip                        26.0.1            python                       
 pixman                     0.46.4-r0         apk                          
 platformdirs               4.4.0             python                       
-platformdirs               4.9.2             python                       
+platformdirs               4.9.4             python                       
 playwright                 1.58.0            python                       
 playwright-core            1.58.0            npm                          
 pluggy                     1.6.0             python                       
@@ -186,7 +186,7 @@ pre-commit-package         dev-1             lua-rocks
 price-parser               0.5.0             python                       
 procps-ng                  4.0.5-r0          apk                          
 psutil                     7.2.2             python                       
-puremagic                  2.0.0             python                       
+puremagic                  2.0.2             python                       
 pyc                        3.12.12-r0        apk                          
 pycparser                  3.0               python                       
 pyee                       13.0.1            python                       
@@ -201,7 +201,7 @@ pytest-flask               1.3.0             python
 pytest-mock                3.15.1            python                       
 pytest-xdist               3.8.0             python                       
 python-dateutil            2.9.0.post0       python                       
-python-discovery           1.1.0             python                       
+python-discovery           1.1.3             python                       
 python-engineio            4.13.1            python                       
 python-socketio            5.16.1            python                       
 python3                    3.12.12-r0        apk                          
@@ -218,11 +218,11 @@ requests-file              3.0.1             python
 requests-oauthlib          2.0.0             python                       
 rfc3339-validator          0.1.4             python                       
 rpds-py                    0.30.0            python                       
-ruff                       0.15.4            python                       
+ruff                       0.15.5            python                       
 scanelf                    1.3.8-r2          apk                          
 selenium                   4.31.0            python                       
 selenium-manager           UNKNOWN           binary                       
-setuptools                 82.0.0            python                       
+setuptools                 82.0.1            python                       
 sgmllib3k                  1.0.0             python                       
 shadow                     4.18.0-r0         apk                          
 simdjson                   3.12.0-r0         apk                          
@@ -244,12 +244,12 @@ trio-websocket             0.12.2            python
 typing-extensions          4.15.0            python                       
 typing-inspect             0.5.0             python                       
 tzdata                     2025.3            python                       
-tzdata                     2025c-r0          apk                          
+tzdata                     2026a-r0          apk                          
 uc-micro-py                2.0.0             python                       
 urllib3                    1.26.20           python                       
 utmps-libs                 0.1.3.1-r0        apk                          
 validators                 0.35.0            python                       
-virtualenv                 21.1.0            python                       
+virtualenv                 21.2.0            python                       
 w3lib                      2.4.0             python                       
 webencodings               0.5.1             python                       
 websocket-client           1.9.0             python                       
@@ -260,7 +260,7 @@ wsproto                    1.3.2             python
 wtforms                    3.2.1             python                       
 xz-libs                    5.8.2-r0          apk                          
 zipp                       3.23.0            python                       
-zlib                       1.3.1-r2          apk                          
+zlib                       1.3.2-r0          apk                          
 zope-event                 6.1               python                       
 zope-interface             8.2               python                       
 zstd-libs                  1.5.7-r2          apk                          
