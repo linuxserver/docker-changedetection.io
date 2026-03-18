@@ -36,7 +36,7 @@ cffi                       2.0.0             python
 cfgv                       3.5.0             python                       
 changedetection-api-docs   1.0.0             npm                          
 changedetection.io-theme   0.0.3             npm                          
-chardet                    7.1.0             python                       
+chardet                    7.2.0             python                       
 charset-normalizer         3.4.6             python                       
 cli                        UNKNOWN           binary                       
 cli-32                     UNKNOWN           binary                       
