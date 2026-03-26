@@ -121,7 +121,7 @@ libmagic                   5.46-r2           apk
 libmd                      1.1.0-r0          apk                          
 libncursesw                6.5_p20251123-r0  apk                          
 libpanelw                  6.5_p20251123-r0  apk                          
-libpng                     1.6.55-r0         apk                          
+libpng                     1.6.56-r0         apk                          
 libproc2                   4.0.5-r0          apk                          
 libpsl                     0.21.5-r3         apk                          
 libsharpyuv                1.6.0-r0          apk                          
@@ -155,7 +155,7 @@ netcat-openbsd             1.234.1-r0        apk
 nghttp2-libs               1.68.0-r0         apk                          
 nghttp3                    1.13.1-r0         apk                          
 nodeenv                    1.10.0            python                       
-nodejs                     24.13.0-r1        apk                          
+nodejs                     24.14.1-r0        apk                          
 nspr                       4.36-r0           apk                          
 nss                        3.118.1-r0        apk                          
 oauthlib                   3.3.1             python                       
@@ -218,7 +218,7 @@ rapidfuzz                  3.14.3            python
 rdflib                     7.6.0             python                       
 readline                   8.3.1-r0          apk                          
 referencing                0.37.0            python                       
-requests                   2.32.5            python                       
+requests                   2.33.0            python                       
 requests-file              3.0.1             python                       
 requests-oauthlib          2.0.0             python                       
 rfc3339-validator          0.1.4             python                       
