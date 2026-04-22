@@ -31,7 +31,7 @@ ca-certificates            20260413-r0       apk
 ca-certificates-bundle     20260413-r0       apk                          
 cairo                      1.18.4-r0         apk                          
 catatonit                  0.2.1-r0          apk                          
-certifi                    2026.2.25         python                       
+certifi                    2026.4.22         python                       
 cffi                       2.0.0             python                       
 cfgv                       3.5.0             python                       
 changedetection-api-docs   1.0.0             npm                          
@@ -84,7 +84,7 @@ html5lib                   1.1               python
 icu-data-en                76.1-r1           apk                          
 icu-libs                   76.1-r1           apk                          
 identify                   2.6.19            python                       
-idna                       3.11              python                       
+idna                       3.12              python                       
 importlib-metadata         8.7.1             python                       
 iniconfig                  2.3.0             python                       
 inscriptis                 2.7.1             python                       
@@ -184,7 +184,7 @@ playwright-core            1.58.0            npm
 pluggy                     1.6.0             python                       
 poppler                    25.12.0-r0        apk                          
 poppler-utils              25.12.0-r0        apk                          
-pre-commit                 4.5.1             python                       
+pre-commit                 4.6.0             python                       
 pre-commit-package         dev-1             lua-rocks                    
 price-parser               0.5.1             python                       
 procps-ng                  4.0.5-r0          apk                          
@@ -192,9 +192,9 @@ psutil                     7.2.2             python
 puremagic                  2.2.0             python                       
 pyc                        3.12.13-r0        apk                          
 pycparser                  3.0               python                       
-pydantic                   2.13.2            python                       
-pydantic-core              2.46.2            python                       
-pydantic-settings          2.13.1            python                       
+pydantic                   2.13.3            python                       
+pydantic-core              2.46.3            python                       
+pydantic-settings          2.14.0            python                       
 pyee                       13.0.1            python                       
 pygments                   2.20.0            python                       
 pyparsing                  3.3.2             python                       
