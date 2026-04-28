@@ -82,7 +82,7 @@ frozenlist                 1.8.0             python
 fsspec                     2026.3.0          python                       
 gdbm                       1.26-r0           apk                          
 gevent                     26.4.0            python                       
-greenlet                   3.4.0             python                       
+greenlet                   3.5.0             python                       
 gui                        UNKNOWN           binary                       
 gui-32                     UNKNOWN           binary                       
 gui-64                     UNKNOWN           binary                       
@@ -113,11 +113,11 @@ jq                         1.11.0            python
 jq                         1.8.1-r0          apk                          
 jsonpath-ng                1.8.0             python                       
 jsonschema                 4.26.0            python                       
-jsonschema-path            0.4.5             python                       
+jsonschema-path            0.4.6             python                       
 jsonschema-specifications  2025.9.1          python                       
 jstyleson                  0.0.2             python                       
 lazy-object-proxy          1.12.0            python                       
-lcms2                      2.17-r0           apk                          
+lcms2                      2.19-r0           apk                          
 levenshtein                0.27.3            python                       
 libapk                     3.0.6-r0          apk                          
 libattr                    2.5.2-r2          apk                          
@@ -271,7 +271,7 @@ ssl_client                 1.37.0-r30        apk
 tiff                       4.7.1-r0          apk                          
 tiktoken                   0.12.0            python                       
 timeago                    1.0.16            python                       
-tokenizers                 0.22.2            python                       
+tokenizers                 0.23.1            python                       
 tomli                      2.4.0             python                       
 tqdm                       4.67.3            python                       
 trio                       0.33.0            python                       
@@ -286,7 +286,7 @@ uc-micro-py                2.0.0             python
 urllib3                    1.26.20           python                       
 utmps-libs                 0.1.3.1-r0        apk                          
 validators                 0.35.0            python                       
-virtualenv                 21.2.4            python                       
+virtualenv                 21.3.0            python                       
 w3lib                      2.4.1             python                       
 webencodings               0.5.1             python                       
 websocket-client           1.9.0             python                       
@@ -295,11 +295,11 @@ werkzeug                   3.1.6             python
 wheel                      0.46.3            python                       
 wsproto                    1.3.2             python                       
 wtforms                    3.2.1             python                       
-xz-libs                    5.8.2-r0          apk                          
+xz-libs                    5.8.3-r0          apk                          
 yarl                       1.23.0            python                       
 zipp                       3.23.0            python                       
 zipp                       3.23.1            python                       
 zlib                       1.3.2-r0          apk                          
-zope-event                 6.1               python                       
+zope-event                 6.2               python                       
 zope-interface             8.4               python                       
 zstd-libs                  1.5.7-r2          apk                          
