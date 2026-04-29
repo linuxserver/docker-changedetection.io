@@ -93,7 +93,7 @@ html-text                  0.7.1             python
 html5lib                   1.1               python                       
 httpcore                   1.0.9             python                       
 httpx                      0.28.1            python                       
-huggingface-hub            1.12.0            python                       
+huggingface-hub            1.12.2            python                       
 icu-data-en                76.1-r1           apk                          
 icu-libs                   76.1-r1           apk                          
 identify                   2.6.19            python                       
@@ -181,7 +181,7 @@ nss                        3.118.1-r0        apk
 numpy                      2.4.4             python                       
 oauthlib                   3.3.1             python                       
 oniguruma                  6.9.10-r0         apk                          
-openai                     2.32.0            python                       
+openai                     2.33.0            python                       
 openapi-core               0.23.1            python                       
 openapi-schema-validator   0.8.1             python                       
 openapi-spec-validator     0.8.5             python                       
@@ -200,8 +200,8 @@ pip                        26.1              python
 pixman                     0.46.4-r0         apk                          
 platformdirs               4.4.0             python                       
 platformdirs               4.9.6             python                       
-playwright                 1.58.0            python                       
-playwright-core            1.58.0            npm                          
+playwright                 1.59.0            python                       
+playwright-core            1.59.1            npm                          
 pluggy                     1.6.0             python                       
 poppler                    25.12.0-r0        apk                          
 poppler-utils              25.12.0-r0        apk                          
