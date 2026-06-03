@@ -4,7 +4,7 @@ acl-libs                   2.3.2-r1          apk
 ada-libs                   3.3.0-r0          apk                          
 aenum                      2.2.6             python                       
 aiohappyeyeballs           2.6.2             python                       
-aiohttp                    3.13.5            python                       
+aiohttp                    3.14.0            python                       
 aiosignal                  1.4.0             python                       
 alpine-baselayout          3.7.2-r0          apk                          
 alpine-baselayout-data     3.7.2-r0          apk                          
@@ -56,7 +56,7 @@ cryptography               44.0.0            python
 curl                       8.19.0-r0         apk                          
 dennis                     1.3.0             python                       
 diff-match-patch           20241021          python                       
-distlib                    0.4.0             python                       
+distlib                    0.4.1             python                       
 distro                     1.9.0             python                       
 elementpath                5.1.1             python                       
 et-xmlfile                 2.0.0             python                       
@@ -66,7 +66,7 @@ fastuuid                   0.14.0            python
 feedgen                    1.0.0             python                       
 feedparser                 6.0.12            python                       
 file                       5.46-r2           apk                          
-filelock                   3.29.0            python                       
+filelock                   3.29.1            python                       
 findutils                  4.10.0-r0         apk                          
 flask                      3.1.3             python                       
 flask-babel                4.0.0             python                       
@@ -94,11 +94,11 @@ html-text                  0.7.1             python
 html5lib                   1.1               python                       
 httpcore                   1.0.9             python                       
 httpx                      0.28.1            python                       
-huggingface-hub            1.16.4            python                       
+huggingface-hub            1.17.0            python                       
 icu-data-en                76.1-r1           apk                          
 icu-libs                   76.1-r1           apk                          
 identify                   2.6.19            python                       
-idna                       3.16              python                       
+idna                       3.18              python                       
 importlib-metadata         8.7.1             python                       
 importlib-metadata         9.0.0             python                       
 iniconfig                  2.3.0             python                       
@@ -150,7 +150,7 @@ libxau                     1.0.12-r0         apk
 libxcb                     1.17.0-r1         apk                          
 libxdmcp                   1.1.5-r1          apk                          
 libxext                    1.3.6-r2          apk                          
-libxml2                    2.13.9-r0         apk                          
+libxml2                    2.13.9-r1         apk                          
 libxrender                 0.9.12-r0         apk                          
 libxslt                    1.1.43-r3         apk                          
 linkify-it-py              2.1.0             python                       
@@ -177,11 +177,11 @@ nghttp2-libs               1.69.0-r0         apk
 nodeenv                    1.10.0            python                       
 nodejs                     24.14.1-r0        apk                          
 nspr                       4.36-r0           apk                          
-nss                        3.118.1-r0        apk                          
+nss                        3.123.1-r0        apk                          
 numpy                      2.4.6             python                       
 oauthlib                   3.3.1             python                       
 oniguruma                  6.9.10-r0         apk                          
-openai                     2.38.0            python                       
+openai                     2.40.0            python                       
 openapi-core               0.23.1            python                       
 openapi-schema-validator   0.8.1             python                       
 openapi-spec-validator     0.8.5             python                       
@@ -196,10 +196,10 @@ paho-mqtt                  2.1.0             python
 panzi-json-logic           1.0.1             python                       
 pathable                   0.5.0             python                       
 pillow                     12.2.0            python                       
-pip                        26.1.1            python                       
+pip                        26.1.2            python                       
 pixman                     0.46.4-r0         apk                          
+platformdirs               4.10.0            python                       
 platformdirs               4.4.0             python                       
-platformdirs               4.9.6             python                       
 playwright                 1.60.0            python                       
 playwright-core            1.60.0            npm                          
 pluggy                     1.6.0             python                       
@@ -230,7 +230,7 @@ pytest-flask               1.3.0             python
 pytest-mock                3.15.1            python                       
 pytest-xdist               3.8.0             python                       
 python-dateutil            2.9.0.post0       python                       
-python-discovery           1.3.1             python                       
+python-discovery           1.4.0             python                       
 python-dotenv              1.2.2             python                       
 python-engineio            4.13.2            python                       
 python-socketio            5.16.2            python                       
@@ -250,8 +250,8 @@ requests-file              3.0.1             python
 requests-oauthlib          2.0.0             python                       
 rfc3339-validator          0.1.4             python                       
 rich                       15.0.0            python                       
-rpds-py                    0.30.0            python                       
-ruff                       0.15.14           python                       
+rpds-py                    2026.5.1          python                       
+ruff                       0.15.15           python                       
 scanelf                    1.3.8-r2          apk                          
 selenium                   4.31.0            python                       
 selenium-manager           UNKNOWN           binary                       
@@ -287,7 +287,7 @@ uc-micro-py                2.0.0             python
 urllib3                    1.26.20           python                       
 utmps-libs                 0.1.3.1-r0        apk                          
 validators                 0.35.0            python                       
-virtualenv                 21.3.3            python                       
+virtualenv                 21.4.2            python                       
 w3lib                      2.4.1             python                       
 webencodings               0.5.1             python                       
 websocket-client           1.9.0             python                       
