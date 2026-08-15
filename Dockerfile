@@ -35,7 +35,7 @@ RUN \
   mkdir -p /app/changedetection && \
   if [ -z ${CHANGEDETECTON_RELEASE+x} ]; then \
     CHANGEDETECTON_RELEASE=$(curl -sX GET "https://api.github.com/repos/dgtlmoon/changedetection.io/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+    | jq -r '.tag_name'); \
   fi && \
   curl -s -o \
     /tmp/changedetection.tar.gz -L \
@@ -50,7 +50,7 @@ RUN \
     setuptools && \
   pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.23/ -r /app/changedetection/requirements.txt && \
   PLAYWRIGHT_PY_RELEASE=$(curl -sX GET "https://api.github.com/repos/microsoft/playwright-python/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+    | jq -r '.tag_name'); \
   git clone --depth 1 --branch "${PLAYWRIGHT_PY_RELEASE}" https://github.com/microsoft/playwright-python /tmp/playwright-python && \
   cd /tmp/playwright-python && \
   pip install -U --no-cache-dir . && \
