@@ -93,7 +93,7 @@ html-text                  0.7.1             python
 html5lib                   1.1               python                   
 httpcore                   1.0.9             python                   
 httpx                      0.28.1            python                   
-huggingface-hub            1.29.0            python                   
+huggingface-hub            1.30.0            python                   
 icu-data-en                76.1-r1           apk                      
 icu-libs                   76.1-r1           apk                      
 idna                       3.19              python                   
