@@ -26,8 +26,8 @@ bash                       5.3.3-r1          apk
 beautifulsoup4             4.14.3            python                   
 bidict                     0.24.1            python                   
 blinker                    1.9.0             python                   
-boto3                      1.43.87           python                   
-botocore                   1.43.87           python                   
+boto3                      1.43.88           python                   
+botocore                   1.43.88           python                   
 brotli                     1.2.0             python                   
 brotli-libs                1.2.0-r0          apk                      
 busybox                    1.37.0-r30        apk                      
