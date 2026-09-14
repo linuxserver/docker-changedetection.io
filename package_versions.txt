@@ -82,7 +82,7 @@ frozenlist                 1.8.0             python
 fsspec                     2026.7.0          python                   
 gdbm                       1.26-r0           apk                      
 gevent                     26.8.0            python                   
-greenlet                   3.5.5             python                   
+greenlet                   3.5.6             python                   
 gui                        UNKNOWN           binary                   
 gui-32                     UNKNOWN           binary                   
 gui-64                     UNKNOWN           binary                   
