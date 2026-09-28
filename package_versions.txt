@@ -25,8 +25,8 @@ bash                       5.3.9-r1          apk
 beautifulsoup4             4.14.3            python                   
 bidict                     0.24.1            python                   
 blinker                    1.9.0             python                   
-boto3                      1.43.102          python                   
-botocore                   1.43.102          python                   
+boto3                      1.43.103          python                   
+botocore                   1.43.103          python                   
 brotli                     1.2.0             python                   
 brotli-libs                1.2.0-r1          apk                      
 busybox                    1.37.0-r31        apk                      
@@ -64,7 +64,7 @@ feedgen                    1.0.0             python
 feedparser                 6.0.14            python                   
 feedparser-sgmllib         2.1.0             python                   
 file                       5.47-r2           apk                      
-filelock                   4.0.3             python                   
+filelock                   4.0.5             python                   
 findutils                  4.10.0-r1         apk                      
 flask                      3.1.3             python                   
 flask-babel                4.0.0             python                   
@@ -87,12 +87,15 @@ gui-32                     UNKNOWN           binary
 gui-64                     UNKNOWN           binary                   
 gui-arm64                  UNKNOWN           binary                   
 h11                        0.16.0            python                   
+h2                         4.4.1             python                   
 hf-xet                     1.6.0             python                   
+hpack                      4.2.0             python                   
 html-text                  0.7.1             python                   
 html5lib                   1.1               python                   
 httpcore                   1.0.9             python                   
 httpx                      0.28.1            python                   
 huggingface-hub            1.33.0            python                   
+hyperframe                 6.1.0             python                   
 icu-data-en                78.1-r0           apk                      
 icu-libs                   78.1-r0           apk                      
 idna                       3.20              python                   
@@ -152,11 +155,11 @@ libxrender                 0.9.12-r0         apk
 libxslt                    1.1.43-r3         apk                      
 linkify-it-py              2.2.0             python                   
 linux-pam                  1.7.1-r2          apk                      
-litellm                    1.102.1           python                   
+litellm                    1.103.0           python                   
 loguru                     0.7.3             python                   
 lxml                       6.1.3             python                   
 lxml-html-clean            0.4.5             python                   
-markdown                   3.10.3            python                   
+markdown                   3.11              python                   
 markupsafe                 3.0.3             python                   
 mf2py                      2.0.2             python                   
 more-itertools             10.8.0            python                   
@@ -173,7 +176,7 @@ nodejs                     24.18.1-r0        apk
 nspr                       4.38.2-r0         apk                      
 nss                        3.124-r0          apk                      
 numpy                      2.5.3             python                   
-oauthlib                   3.3.1             python                   
+oauthlib                   4.0.0             python                   
 oniguruma                  6.9.10-r0         apk                      
 openai                     2.54.0            python                   
 openapi-core               0.23.1            python                   
@@ -217,7 +220,7 @@ pyrdfa3                    3.6.5             python
 pysocks                    1.7.1             python                   
 pytest                     9.1.1             python                   
 pytest-flask               1.3.0             python                   
-pytest-mock                3.15.1            python                   
+pytest-mock                3.16.0            python                   
 pytest-xdist               3.8.0             python                   
 python-dateutil            2.9.0.post0       python                   
 python-dotenv              1.2.3             python                   
@@ -241,7 +244,8 @@ rfc3339-validator          0.1.4             python
 rpds-py                    2026.6.3          python                   
 s3transfer                 0.19.2            python                   
 scanelf                    1.3.9-r1          apk                      
-selenium                   4.31.0            python                   
+segno                      1.6.6             python                   
+selenium                   4.49.0            python                   
 selenium-manager           UNKNOWN           binary                   
 setuptools                 84.0.0            python                   
 shadow                     4.18.0-r1         apk                      
