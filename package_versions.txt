@@ -4,7 +4,7 @@ acl-libs                   2.3.2-r1          apk
 ada-libs                   3.3.0-r0          apk                      
 aenum                      2.2.6             python                   
 aiohappyeyeballs           2.7.1             python                   
-aiohttp                    3.14.3            python                   
+aiohttp                    3.14.4            python                   
 aiosignal                  1.4.0             python                   
 alpine-baselayout          3.7.2-r1          apk                      
 alpine-baselayout-data     3.7.2-r1          apk                      
@@ -25,8 +25,8 @@ bash                       5.3.9-r1          apk
 beautifulsoup4             4.14.3            python                   
 bidict                     0.24.1            python                   
 blinker                    1.9.0             python                   
-boto3                      1.43.105          python                   
-botocore                   1.43.105          python                   
+boto3                      1.43.109          python                   
+botocore                   1.43.109          python                   
 brotli                     1.2.0             python                   
 brotli-libs                1.2.0-r1          apk                      
 busybox                    1.37.0-r31        apk                      
@@ -64,7 +64,7 @@ feedgen                    1.0.0             python
 feedparser                 6.0.14            python                   
 feedparser-sgmllib         2.1.0             python                   
 file                       5.47-r2           apk                      
-filelock                   4.0.7             python                   
+filelock                   3.32.7            python                   
 findutils                  4.10.0-r1         apk                      
 flask                      3.1.3             python                   
 flask-babel                4.0.0             python                   
@@ -88,7 +88,7 @@ gui-64                     UNKNOWN           binary
 gui-arm64                  UNKNOWN           binary                   
 h11                        0.16.0            python                   
 h2                         4.4.1             python                   
-hf-xet                     1.6.0             python                   
+hf-xet                     1.7.0             python                   
 hpack                      4.2.0             python                   
 html-text                  0.7.1             python                   
 html5lib                   1.1               python                   
@@ -101,7 +101,7 @@ icu-libs                   78.1-r0           apk
 idna                       3.20              python                   
 importlib-metadata         8.7.1             python                   
 importlib-metadata         8.9.0             python                   
-iniconfig                  2.3.0             python                   
+iniconfig                  2.3.1             python                   
 inscriptis                 2.7.5             python                   
 isodate                    0.7.2             python                   
 itsdangerous               2.2.0             python                   
@@ -155,12 +155,12 @@ libxrender                 0.9.12-r0         apk
 libxslt                    1.1.43-r3         apk                      
 linkify-it-py              2.2.0             python                   
 linux-pam                  1.7.1-r2          apk                      
-litellm                    1.103.1           python                   
+litellm                    1.104.0           python                   
 loguru                     0.7.3             python                   
 lxml                       6.1.3             python                   
 lxml-html-clean            0.4.5             python                   
 markdown                   3.11              python                   
-markupsafe                 3.0.3             python                   
+markupsafe                 3.0.4             python                   
 mf2py                      2.0.2             python                   
 more-itertools             10.8.0            python                   
 more-itertools             11.1.0            python                   
@@ -171,7 +171,7 @@ musl-utils                 1.2.6-r2          apk
 mypy-extensions            1.1.0             python                   
 ncurses-terminfo-base      6.6_p20260516-r0  apk                      
 netcat-openbsd             1.234.1-r0        apk                      
-nghttp2-libs               1.69.0-r0         apk                      
+nghttp2-libs               1.70.0-r0         apk                      
 nodejs                     24.18.1-r0        apk                      
 nspr                       4.38.2-r0         apk                      
 nss                        3.124-r0          apk                      
@@ -185,7 +185,7 @@ openapi-spec-validator     0.8.5             python
 openjpeg                   2.5.4-r1          apk                      
 openpyxl                   3.1.5             python                   
 ordered-set                4.1.0             python                   
-orjson                     3.12.0            python                   
+orjson                     3.13.0            python                   
 outcome                    1.3.0.post0       python                   
 packaging                  26.0              python                   
 packaging                  26.3              python                   
@@ -206,7 +206,7 @@ procps-ng                  4.0.6-r0          apk
 propcache                  0.5.4             python                   
 psutil                     7.2.2             python                   
 puremagic                  1.30              python                   
-pyc                        3.14.7-r1         apk                      
+pyc                        3.14.8-r0         apk                      
 pycparser                  3.0               python                   
 pydantic                   2.13.5            python                   
 pydantic-core              2.46.5            python                   
@@ -223,13 +223,13 @@ pytest-flask               1.3.0             python
 pytest-mock                3.16.0            python                   
 pytest-xdist               3.8.0             python                   
 python-dateutil            2.9.0.post0       python                   
-python-dotenv              1.2.3             python                   
+python-dotenv              1.2.4             python                   
 python-engineio            4.14.0            python                   
 python-socketio            5.17.0            python                   
-python3                    3.14.7-r1         apk                      
-python3-pyc                3.14.7-r1         apk                      
-python3-pycache-pyc0       3.14.7-r1         apk                      
-pytz                       2026.4            python                   
+python3                    3.14.8-r0         apk                      
+python3-pyc                3.14.8-r0         apk                      
+python3-pycache-pyc0       3.14.8-r0         apk                      
+pytz                       2026.5            python                   
 pyyaml                     6.0.3             python                   
 rank-bm25                  0.2.2             python                   
 rapidfuzz                  3.14.6            python                   
@@ -241,7 +241,7 @@ requests                   2.34.2            python
 requests-file              3.0.1             python                   
 requests-oauthlib          2.0.0             python                   
 rfc3339-validator          0.1.4             python                   
-rpds-py                    2026.6.3          python                   
+rpds-py                    2026.9.1          python                   
 s3transfer                 0.19.2            python                   
 scanelf                    1.3.9-r1          apk                      
 segno                      1.6.6             python                   
@@ -270,7 +270,7 @@ trio-websocket             0.12.2            python
 typing-extensions          4.16.0            python                   
 typing-inspect             0.5.0             python                   
 typing-inspection          0.4.4             python                   
-tzdata                     2026.4            python                   
+tzdata                     2026.5            python                   
 tzdata                     2026d-r0          apk                      
 urllib3                    2.8.0             python                   
 utmps-libs                 0.1.3.3-r0        apk                      
@@ -286,8 +286,8 @@ wtforms                    3.2.2             python
 xz-libs                    5.8.4-r0          apk                      
 yarl                       1.25.1            python                   
 zipp                       3.23.0            python                   
-zipp                       4.1.0             python                   
-zlib                       1.3.2-r0          apk                      
+zipp                       4.1.1             python                   
+zlib                       1.3.2-r1          apk                      
 zope-event                 6.2               python                   
 zope-interface             8.6               python                   
 zstd-libs                  1.5.7-r2          apk                      
